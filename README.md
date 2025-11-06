@@ -71,3 +71,11 @@ Iremos a la opcion **PAGES** que esta en la parte inferior izquierda <br>
 **3º Paso**
 Escogemos a que rama asociar pages por defecto a **main** y a que carpeta por defecto **root** y guardamos la configuracion 
 
+# MARKDOWN 
+Es un lenguaje de marcado de codigo abierto creado por John Gruber. Contiene texto plano formateado. Este archivo se compone de un nombre y una extension que en este caso la de Markdown es **.md** 
+## Etiquetas basicas de Markdown
+- Hay 2 formas de poner en negrita las frases o palabras <br>
+**TEXTO EN NEGRITA** o __TEXTO EN NEGRITA__         <!-- Se usa doble * o el doble guion bajo __ -->
+- Hay 2 formas de poner en cursiva las frases o palabras <br>
+*TEXTO EN CURSIVA* o _TEXTO EN CURSIVA_             <!-- Se usa un * o una guion bajo _ -->
+- 
