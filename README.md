@@ -1,13 +1,13 @@
 # 2526_ASIX1_0373_AE1llenguatgesdemarquessistem_misapuntes_
 Repositorio sobre lo que iremos haciendo a lo largo del año
-## ¿Qué es GitHub?
+# ¿Qué es GitHub?
 GitHub es una plataforma web que permite **almacenar**, **colaborar** y **versionar** proyectos usando Git.
 Para que sirve:
 - Para presentar o compartir el trabajo
 - Seguir y administrar los cambios del codigo a lo largo del trabajo
 - Dejar que otros usuarios revisen tu codigo y realicen sugerencias para mejorarlo 
 - Para poder usar los comandos y sincronizarlo con el repositorio en la pagina tenemos que descargar la app **Git**
-### ¿Como crear un repositorio en GitHub?
+## ¿Como crear un repositorio en GitHub?
 **1º Paso** <br>
 Entramos a git hub y ponemos nuestra cuenta <br>
 **2º Paso** <br>
@@ -32,6 +32,28 @@ Para crear un repositorio local nuevo y sincronizarlo con un repositorio de GitH
 - **git add README.md**: Añadimos el archivo readme al repositorio local. Si ponemos git add . añadimos todos los archivos al repositorio local.
 - **git branch -M main**: Asociamos la versión a la rama de desarrollo que queramos. La rama por defecto es “main”
 - **git commit -m "first commit"** : Este comando es un conjunto de cambios que se realizan en los archivos del repositorio (modificar, añadir, eliminar, mover, renombrar, etc). Creamos el paquete de archivos a sincronizar con el repositorio remoto.
-- **git remote add origin https://github.com/AlbertoDeSantos/BORRAR.git.:**: asociamos un repositorio remoto indicando un identificador (origin) y su URL
+- **git remote add origin**: asociamos un repositorio remoto indicando un identificador (origin) y su URL
 - **git push -u origin main**: Este comando nos permitira hacer los cambios al repositorio remoto y rama indicadas en los puntos anteriores.
-
+**b- Sincronizar un repositorio local ya existente desde linea de comandos**
+Navegamos en local hasta la carpeta raiz del repositorio local a vincular con el repositorio vacio creado e inizializado previamente en GitHub
+- **git init:** Inicializamos el repositorio
+- **git remote add origin:** Una vez situados en la carpeta añadimos como origen de ese repositorio al repositorio vacio de GitHub
+- **git branch -M main**: Asociamos la version a la rama de desarrollo que queramos 
+- **git commit -m "first commit"**: Este comando sirve para hacer cambios que se realizan en los archivos del repositorio. Creamos el paquete de archivos a sincronizar con el repositorio remoto 
+- **git push -u origi main**: Subimos los cambios al repositorio remoto 
+## ¿Como importar en GitHub un repositorio ya existente?
+**1º Paso** <br>
+Vamos al repositorio, le hacemos click en la pestaña verde que se llama **Code** y copiamos la url que nos sale <br>
+**2º Paso** <br>
+En repositorios vamos a crear un repositorio nuevo y veremos una opcion que nos pondra **importar repositorio**<br>
+En **old repository’s clone URL** pegamos la URL del repositorio que queremos importar mientras que en **Repository Name** ponemos el nombre que queremos que tenga nuestro repositorio clonado <br>
+**3º Paso** <br>
+Por ultimo paso elegimos si queremos que el repositorio sea privado o publico 
+## ¿Como activar GitHub Pages?
+**1º Paso** <br>
+Iremos a nuestro repositorio al apartado configuracion <br>
+**2º Paso** <br>
+Iremos a la opcion **PAGES** que esta en la parte inferior izquierda <br>
+*Recuerda que el repositorio tiene que ser publico para poder hacer esto** <br>
+**3º Paso**
+Escogemos a que rama asociar pages por defecto a **main** y a que carpeta por defecto **root** y guardamos la configuracion 
