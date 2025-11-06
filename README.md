@@ -27,20 +27,33 @@ Este comando servira para sincronizar los elementos y subirlos tambien a la pagi
 
 **a- Crear un repositorio local nuevo desde línea de comandos (GIT).**
 Para crear un repositorio local nuevo y sincronizarlo con un repositorio de GitHub no inicializado, osea vacío ya que no se uso la opcion README. Lo que haremos es hacerlo desde la carpeta “raíz” del repositorio local. Iremos en local hasta la carpeta raíz de los repositorios locales y creamos una carpeta nueva para el repositorio local a vincular con el repositorio vacío e inicializado en GitHub. La carpeta se tiene que llamar igual que el repositorio de GitHub. <br>
-- **echo "# BORRAR" >> README.md**: Creamos el archivo readme.md con el contenido que queramos 
-- **git init**:Inicializamos el repositorio GIT local vacío en la carpeta donde estamos situados.
-- **git add README.md**: Añadimos el archivo readme al repositorio local. Si ponemos git add . añadimos todos los archivos al repositorio local.
-- **git branch -M main**: Asociamos la versión a la rama de desarrollo que queramos. La rama por defecto es “main”
-- **git commit -m "first commit"** : Este comando es un conjunto de cambios que se realizan en los archivos del repositorio (modificar, añadir, eliminar, mover, renombrar, etc). Creamos el paquete de archivos a sincronizar con el repositorio remoto.
-- **git remote add origin**: asociamos un repositorio remoto indicando un identificador (origin) y su URL<br>
-- **git push -u origin main**: Este comando nos permitira hacer los cambios al repositorio remoto y rama indicadas en los puntos anteriores.<br>
+- **echo "# BORRAR" >> README.md**
+Creamos el archivo readme.md con el contenido que queramos 
+- **git init**
+Inicializamos el repositorio GIT local vacío en la carpeta donde estamos situados.
+- **git add README.md**
+Añadimos el archivo readme al repositorio local. Si ponemos git add . añadimos todos los archivos al repositorio local.
+- **git branch -M main**
+Asociamos la versión a la rama de desarrollo que queramos. La rama por defecto es “main”
+- **git commit -m "first commit"**
+Este comando es un conjunto de cambios que se realizan en los archivos del repositorio (modificar, añadir, eliminar, mover, renombrar, etc). Creamos el paquete de archivos a sincronizar con el repositorio remoto.
+- **git remote add origin**
+Asociamos un repositorio remoto indicando un identificador (origin) y su URL<br>
+- **git push -u origin main**
+Este comando nos permitira hacer los cambios al repositorio remoto y rama indicadas en los puntos anteriores.
+
 **b- Sincronizar un repositorio local ya existente desde linea de comandos**
 Navegamos en local hasta la carpeta raiz del repositorio local a vincular con el repositorio vacio creado e inizializado previamente en GitHub
-- **git init:** Inicializamos el repositorio
-- **git remote add origin:** Una vez situados en la carpeta añadimos como origen de ese repositorio al repositorio vacio de GitHub
-- **git branch -M main**: Asociamos la version a la rama de desarrollo que queramos 
-- **git commit -m "first commit"**: Este comando sirve para hacer cambios que se realizan en los archivos del repositorio. Creamos el paquete de archivos a sincronizar con el repositorio remoto 
-- **git push -u origi main**: Subimos los cambios al repositorio remoto 
+- **git init** 
+Inicializamos el repositorio
+- **git remote add origin** 
+Una vez situados en la carpeta añadimos como origen de ese repositorio al repositorio vacio de GitHub
+- **git branch -M main**
+Asociamos la version a la rama de desarrollo que queramos 
+- **git commit -m "first commit"**
+Este comando sirve para hacer cambios que se realizan en los archivos del repositorio. Creamos el paquete de archivos a sincronizar con el repositorio remoto 
+- **git push -u origi main**
+Subimos los cambios al repositorio remoto 
 ## ¿Como importar en GitHub un repositorio ya existente?
 **1º Paso** <br>
 Vamos al repositorio, le hacemos click en la pestaña verde que se llama **Code** y copiamos la url que nos sale <br>
