@@ -32,7 +32,7 @@ Para crear un repositorio local nuevo y sincronizarlo con un repositorio de GitH
 - **git add README.md**: Añadimos el archivo readme al repositorio local. Si ponemos git add . añadimos todos los archivos al repositorio local.
 - **git branch -M main**: Asociamos la versión a la rama de desarrollo que queramos. La rama por defecto es “main”
 - **git commit -m "first commit"** : Este comando es un conjunto de cambios que se realizan en los archivos del repositorio (modificar, añadir, eliminar, mover, renombrar, etc). Creamos el paquete de archivos a sincronizar con el repositorio remoto.
-- **git remote add origin**: asociamos un repositorio remoto indicando un identificador (origin) y su URL
+- **git remote add origin**: asociamos un repositorio remoto indicando un identificador (origin) y su URL<br>
 - **git push -u origin main**: Este comando nos permitira hacer los cambios al repositorio remoto y rama indicadas en los puntos anteriores.
 **b- Sincronizar un repositorio local ya existente desde linea de comandos**
 Navegamos en local hasta la carpeta raiz del repositorio local a vincular con el repositorio vacio creado e inizializado previamente en GitHub
@@ -57,3 +57,4 @@ Iremos a la opcion **PAGES** que esta en la parte inferior izquierda <br>
 *Recuerda que el repositorio tiene que ser publico para poder hacer esto** <br>
 **3º Paso**
 Escogemos a que rama asociar pages por defecto a **main** y a que carpeta por defecto **root** y guardamos la configuracion 
+
