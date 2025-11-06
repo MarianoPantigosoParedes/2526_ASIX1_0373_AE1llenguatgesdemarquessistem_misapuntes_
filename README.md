@@ -16,11 +16,11 @@ Arriba a la derecha veremos un circulo con nuestra foto de perfil le damos click
 A continuacion veremos una interfaz donde nos pedira llenar los datos como el nombre, si queremos que sea privado o publico **(si mas adelante vamos a querer utilizar el github pages lo tenemos que poner en publico tambien lo podremos cambiar mas adelante)** entre otras cosas, lo llenamos depende de como lo pida el profesor. Marcamos la opcion Readme para que el repositorio se cree y se inicialice automaticamente en GitHub <br>
 **En caso que no se marque esta opcion el repositorio se creara vacio** <br>
 Una vez creada el repositorio local, nos desplazamos a la raíz del repositorio clonado para trabajar con él, realizar modificaciones y sincronizar los cambios con GitHub cada vez que queramos, y para hacer esto implementamos estos comandos
-- git init
+- **git init:** 
 Este comando nos servira para inicializar el repositorio de nuestro local con el de la pagina web
-- git add .
+- **git add .:**
 Este comando servira para agregar los elementos que hemos puesto en la nueva version
-- git commit -m "AÑADIR TITULO"
+- **git commit -m "AÑADIR TITULO":**
 Este comando servira para añadir una descripcion de lo que agregamos al repositorio
-- git push origin main
+- **git push origin main:**
 Este comando servira para sincronizar los elementos y subirlos tambien a la pagina del git
