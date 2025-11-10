@@ -219,17 +219,33 @@ Y asi se veria en la pagina:
 
 ```html
 <p>Hola Mundo</p>
+```
 
 ## IMAGENES
-Para poner imagenes en markdown desde nuestra pc local, osea descargada usaremos el siguiente codigo, no olviden de poner bien la ruta:
+- Para poner imagenes en markdown desde nuestra pc local, osea descargada usaremos el siguiente codigo, no olviden de poner bien la ruta:
+La sintaxis seria la siguiente:
+![*TEXTO*](**RUTA DE LA IMAGEN**)
+![imagen](imagenes/imagen.png)
+Y asi se veria en la pagina 
 ![imagen de un boxeador](imagenes/naoyainoue.jpg)
-Para poner imagenes en markdown desde una pagina web pondremos el siguiente codigo, recuerda que debe de estar en formato **PNG, JPEG, JPG**:
+- Para poner imagenes en markdown desde una pagina web pondremos el siguiente codigo, recuerda que debe de estar en formato **PNG, JPEG, JPG**:
+La sintaxis seria la siguiente:
+![*TEXTO*](**RUTA DE LA IMAGEN**)
+![imagen2](imagenes/imagen2.png)
+Y asi se veria en la pagina:
 ![anime](https://m.media-amazon.com/images/M/MV5BOWE2OTJkNzAtZWU1NC00YmQyLTk5ZWMtNzQ4MjQyZTI5YjhlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg)
 ## ENLACES
 Primero se incluye el texto del link entre corchetes y posteriormente el link entre parentesis
+La sintaxis seria la siguiente:
+![enlaces](imagenes/enlaces.png)
+Y en la pagina se veria asi
 [Pagina web del record actual de cada boxeador](https://boxrec.com/es)
+
 ## TABLAS 
 Se usan barras verticales | para separar columnas y guiones - para crear el encabezado.
+La sintaxis seria la siguiente:
+![tabla](imagenes/tabla.png)
+Y en la pagina se veria asi:
 | NOMBRE | EDAD | PAIS |
 | ----------- | ---- | ------------- |
 | Mariano | 20 | Perú |
