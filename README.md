@@ -11,7 +11,7 @@ Para que sirve:
 <img src="imagenes/git.jpg" alt="Logo git" width="300">
 
 ## ¿Como crear un repositorio en GitHub?
-**1º Paso** <br>
+**1º Paso** 
 Entramos a git hub y ponemos nuestra cuenta 
 
 **2º Paso** <br>
@@ -111,11 +111,16 @@ Por ultimo paso elegimos si queremos que el repositorio sea privado o publico
 ## ¿Como activar GitHub Pages?
 **1º Paso** <br>
 Iremos a nuestro repositorio al apartado configuracion <br>
+![githubpages](imagenes/pages.png) <br>
+
 **2º Paso** <br>
 Iremos a la opcion **PAGES** que esta en la parte inferior izquierda <br>
 **Recuerda que el repositorio tiene que ser publico para poder hacer esto** <br>
+![githubpages](imagenes/pages2.png) <br>
+
 **3º Paso**
-Escogemos a que rama asociar pages por defecto a **main** y a que carpeta por defecto **root** y guardamos la configuracion 
+Escogemos a que rama asociar pages por defecto a **main** y a que carpeta por defecto **root** y guardamos la configuracion <br>
+![githubpages](imagenes/pages3.png) <br>
 
 # MARKDOWN 
 Es un lenguaje de marcado de codigo abierto creado por John Gruber. Contiene texto plano formateado. Este archivo se compone de un nombre y una extension que en este caso la de Markdown es **.md** 
