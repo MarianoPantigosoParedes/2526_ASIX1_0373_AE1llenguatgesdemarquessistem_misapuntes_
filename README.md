@@ -118,5 +118,6 @@ Para usar bloques de codigo agregaremos las '' comillas por ejemplo si queremos 
 ## IMAGENES
 Para poner imagenes en markdown usaremos el siguiente codigo
 ![imagen de un boxeador](imagenes/naoyainoue.jpg)
-![anime](https://https://m.media-amazon.com/images/M/MV5BOWE2OTJkNzAtZWU1NC00YmQyLTk5ZWMtNzQ4MjQyZTI5YjhlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg)
+![anime](https://m.media-amazon.com/images/M/MV5BOWE2OTJkNzAtZWU1NC00YmQyLTk5ZWMtNzQ4MjQyZTI5YjhlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg)
+
 
