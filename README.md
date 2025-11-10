@@ -105,4 +105,12 @@ Esta es una lista enumerada
 ## CITAS Y CITAS ANIDADAS
 Una cita es para resaltar o citar texto, igual que en los correos o articulos. Se usa este simbolo >
 > Esto es una cita en Markdown
-Una cita anidada 
+Una cita anidada es una cita que esta dentro de otra por ejemplo
+> Esto es una cita
+>> Esto es una cita anidada
+
+## BLOQUES DE CODIGO
+Para usar bloques de codigo agregaremos las '' comillas por ejemplo si queremos usar html haremos esto
+```html
+
+
