@@ -13,29 +13,40 @@ Para que sirve:
 Entramos a git hub y ponemos nuestra cuenta <br>
 **2º Paso** <br>
 Arriba a la derecha veremos un circulo con nuestra foto de perfil le damos click y veremos un apartado de perfil
+
 ![pasouno](imagenes/paso1.png)
+
 **3º Paso**<br>
 Entramos ahi y se nos abrira una nueva interfas. En la parte de arriba veremos un apartado que se llama repositorio
+
  ![pasodos](imagenes/paso2.png)
+
  **4º Paso**<br>
  Hacemos click y le damos a **nuevo** 
+
  ![pasotres](imagenes/paso3.png)<br>
+
 **5º Paso**<br>
 A continuacion veremos una interfaz donde nos pedira llenar los datos como el nombre, si queremos que sea privado o publico **(si mas adelante vamos a querer utilizar el github pages lo tenemos que poner en publico tambien lo podremos cambiar mas adelante)** entre otras cosas, lo llenamos depende de como lo pida el profesor. Marcamos la opcion Readme para que el repositorio se cree y se inicialice automaticamente en GitHub <br>
 **En caso que no se marque esta opcion el repositorio se creara vacio** <br>
-![pasocuatro](imagenes/paso4.png.png)<br>
+
+![pasocuatro](imagenes/paso4.png)<br>
+
 **6º Paso**
 Una vez creada el repositorio local, nos desplazamos a la raíz del repositorio clonado para trabajar con él, realizar modificaciones y sincronizar los cambios con GitHub cada vez que queramos, y para hacer esto implementamos estos comandos
+
 - **git init:** 
 Este comando nos servira para inicializar el repositorio de nuestro local con el de la pagina web
 ![gitinit](imagenes/gitinit.png)<br>
 - **git add . :**
 Este comando servira para agregar los elementos que hemos puesto en la nueva version
-
+![gitadd](imagenes/gitadd.png)<br>
 - **git commit -m "AÑADIR TITULO":**
 Este comando servira para añadir una descripcion de lo que agregamos al repositorio
+![gitcommit](imagenes/gitcommit.png)
 - **git push origin main:**
 Este comando servira para sincronizar los elementos y subirlos tambien a la pagina del git
+![gitpush](imagenes/gitpush.png)
 
 **a- Crear un repositorio local nuevo desde línea de comandos (GIT).**
 Para crear un repositorio local nuevo y sincronizarlo con un repositorio de GitHub no inicializado, osea vacío ya que no se uso la opcion README. Lo que haremos es hacerlo desde la carpeta “raíz” del repositorio local. Iremos en local hasta la carpeta raíz de los repositorios locales y creamos una carpeta nueva para el repositorio local a vincular con el repositorio vacío e inicializado en GitHub. La carpeta se tiene que llamar igual que el repositorio de GitHub. <br>
