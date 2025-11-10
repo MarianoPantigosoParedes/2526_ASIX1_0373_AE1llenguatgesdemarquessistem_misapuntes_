@@ -190,10 +190,20 @@ Y asi se veria en la pagina:
     1. Sub-elemento
 
 ## CITAS Y CITAS ANIDADAS
+<!--Citas-->
 Una cita es para resaltar o citar texto, igual que en los correos o articulos. Se usa este simbolo >
-> Esto es una cita en Markdown 
+Esta es la sintaxis:
 
-Una cita anidada es una cita que esta dentro de otra por ejemplo
+![cita](imagenes/cita.png)
+
+Y se veria asi en la pagina:
+> Esto es una cita en Markdown 
+<!--Citas anidadas-->
+Una cita anidada es una cita que esta dentro de otra
+Esta es la sintaxis:
+![citasanidadas](imagenes/citasanidadas.png)
+
+Y asi se veria en la pagina:
 > Esto es una cita
 >> Esto es una cita anidada
 
