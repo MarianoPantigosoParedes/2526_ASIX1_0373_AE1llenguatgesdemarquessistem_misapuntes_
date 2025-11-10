@@ -210,12 +210,16 @@ Y asi se veria en la pagina:
 
 ## BLOQUES DE CODIGO
 Para usar bloques de codigo agregaremos las ´´´ comillas por ejemplo si queremos usar html o cualquier otro lenguaje de programacion
+
 Esta es la sintaxis:
+
 ![bloquescodigo](imagenes/bloques.png)
+
 Y asi se veria en la pagina:
 ´´´html
 <p>Hola Mundo</p>
 ´´´
+
 ## IMAGENES
 Para poner imagenes en markdown desde nuestra pc local, osea descargada usaremos el siguiente codigo, no olviden de poner bien la ruta:
 ![imagen de un boxeador](imagenes/naoyainoue.jpg)
