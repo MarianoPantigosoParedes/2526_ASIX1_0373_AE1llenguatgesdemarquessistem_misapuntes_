@@ -8,7 +8,7 @@ Para que sirve:
 - Dejar que otros usuarios revisen tu codigo y realicen sugerencias para mejorarlo 
 - Para poder usar los comandos y sincronizarlo con el repositorio en la pagina tenemos que descargar la app **Git**
 
-![logogithub](imagenes/git.jpg)
+<img src="imagenes/git.jpg" alt="Logo git" width="300">
 
 ## ¿Como crear un repositorio en GitHub?
 **1º Paso** 
