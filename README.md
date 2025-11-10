@@ -8,9 +8,7 @@ Para que sirve:
 - Dejar que otros usuarios revisen tu codigo y realicen sugerencias para mejorarlo 
 - Para poder usar los comandos y sincronizarlo con el repositorio en la pagina tenemos que descargar la app **Git**
 
-<p align="center>
 <img src="imagenes/git.jpg" alt="Logo git" width="300">
-</p>
 
 ## ¿Como crear un repositorio en GitHub?
 **1º Paso** 
@@ -60,7 +58,7 @@ Este comando servira para sincronizar los elementos y subirlos tambien a la pagi
 
 ![gitpush](imagenes/gitpush.png)
 
-**a- Crear un repositorio local nuevo desde línea de comandos (GIT).**
+## A- Crear un repositorio local nuevo desde línea de comandos (GIT).
 Para crear un repositorio local nuevo y sincronizarlo con un repositorio de GitHub no inicializado, osea vacío ya que no se uso la opcion README. Lo que haremos es hacerlo desde la carpeta “raíz” del repositorio local. Iremos en local hasta la carpeta raíz de los repositorios locales y creamos una carpeta nueva para el repositorio local a vincular con el repositorio vacío e inicializado en GitHub. La carpeta se tiene que llamar igual que el repositorio de GitHub. <br>
 - **echo "# BORRAR" >> README.md:**
 Creamos el archivo readme.md con el contenido que queramos 
@@ -77,7 +75,7 @@ Asociamos un repositorio remoto indicando un identificador (origin) y su URL<br>
 - **git push -u origin main:**
 Este comando nos permitira hacer los cambios al repositorio remoto y rama indicadas en los puntos anteriores.
 
-**b- Sincronizar un repositorio local ya existente desde linea de comandos**
+## B- Sincronizar un repositorio local ya existente desde linea de comandos
 Navegamos en local hasta la carpeta raiz del repositorio local a vincular con el repositorio vacio creado e inizializado previamente en GitHub
 - **git init:** 
 Inicializamos el repositorio
@@ -90,11 +88,24 @@ Este comando sirve para hacer cambios que se realizan en los archivos del reposi
 - **git push -u origi main:**
 Subimos los cambios al repositorio remoto 
 ## ¿Como importar en GitHub un repositorio ya existente?
-**1º Paso** <br>
-Vamos al repositorio, le hacemos click en la pestaña verde que se llama **Code** y copiamos la url que nos sale <br>
-**2º Paso** <br>
-En repositorios vamos a crear un repositorio nuevo y veremos una opcion que nos pondra **importar repositorio**<br>
-En **old repository’s clone URL** pegamos la URL del repositorio que queremos importar mientras que en **Repository Name** ponemos el nombre que queremos que tenga nuestro repositorio clonado <br>
+**1º Paso** 
+Vamos al repositorio, le hacemos click en la pestaña verde que se llama **Code** y copiamos la url que nos sale 
+
+![importarrepositorio](imagenes/importar.png)
+
+**2º Paso**
+En repositorios vamos a crear un repositorio nuevo
+
+![importarrepositorio](imagenes/importar2.png)
+
+Veremos una opcion que nos pondra **importar repositorio**
+
+![importarepositorio](imagenes/importar3.png)
+
+En **old repository’s clone URL** pegamos la URL del repositorio que queremos importar mientras que en **Repository Name** ponemos el nombre que queremos que tenga nuestro repositorio clonado
+
+![importarrepositorio](imagenes/importar4.png)
+
 **3º Paso** <br>
 Por ultimo paso elegimos si queremos que el repositorio sea privado o publico 
 ## ¿Como activar GitHub Pages?
