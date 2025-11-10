@@ -116,8 +116,15 @@ Para usar bloques de codigo agregaremos las '' comillas por ejemplo si queremos 
 <p>Hola Mundo</p>
 ```
 ## IMAGENES
-Para poner imagenes en markdown usaremos el siguiente codigo
+Para poner imagenes en markdown desde nuestra pc local, osea descargada usaremos el siguiente codigo, no olviden de poner bien la ruta:
 ![imagen de un boxeador](imagenes/naoyainoue.jpg)
+Para poner imagenes en markdown desde una pagina web pondremos el siguiente codigo, recuerda que debe de estar en formato **PNG, JPEG, JPG**:
 ![anime](https://m.media-amazon.com/images/M/MV5BOWE2OTJkNzAtZWU1NC00YmQyLTk5ZWMtNzQ4MjQyZTI5YjhlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg)
-
-
+## TABLAS 
+Se usan barras verticales | para separar columnas y guiones - para crear el encabezado.
+| NOMBRE | EDAD | PAIS |
+| ----------- | ---- | ------------- |
+| Mariano | 20 | Perú |
+| David | 20 | Colombia |
+| Carlos | 20 | Uruguay |
+| Adrian | 21 | Paraguay |
