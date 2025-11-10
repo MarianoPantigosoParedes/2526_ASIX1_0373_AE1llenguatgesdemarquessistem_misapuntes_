@@ -120,6 +120,9 @@ Para poner imagenes en markdown desde nuestra pc local, osea descargada usaremos
 ![imagen de un boxeador](imagenes/naoyainoue.jpg)
 Para poner imagenes en markdown desde una pagina web pondremos el siguiente codigo, recuerda que debe de estar en formato **PNG, JPEG, JPG**:
 ![anime](https://m.media-amazon.com/images/M/MV5BOWE2OTJkNzAtZWU1NC00YmQyLTk5ZWMtNzQ4MjQyZTI5YjhlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg)
+## ENLACES
+Primero se incluye el texto del link entre corchetes y posteriormente el link entre parentesis
+[https://boxrec.com/es](https/Pagina web de el record actual de cada boxeador)
 ## TABLAS 
 Se usan barras verticales | para separar columnas y guiones - para crear el encabezado.
 | NOMBRE | EDAD | PAIS |
