@@ -129,12 +129,20 @@ Es un lenguaje de marcado de codigo abierto creado por John Gruber. Contiene tex
 ## Etiquetas Negrita, cursiva y texto tachado
 - Hay 2 formas de poner en negrita las frases o palabras. Se usa doble * o el doble guion bajo __ <br>
 **TEXTO EN NEGRITA** o __TEXTO EN NEGRITA__         <!-- Se usa doble * o el doble guion bajo __ -->
+![negrita](imagenes/negrita.png)
+
 - Hay 2 formas de poner en cursiva las frases o palabras. Se usa un * o un guion bajo _ <br>
 *TEXTO EN CURSIVA* o _TEXTO EN CURSIVA_             <!-- Se usa un * o una guion bajo _ -->
+![cursiva](imagenes/cursiva.png)
+
 - Hay 2 formas de poner en negrita y cursiva las frases o palabras. Se usa triple * o triple guion bajo <br>
 ***TEXTO EN NEGRITA Y CURSIVA*** o ___TEXTO EN NEGRITA Y CURSIVA___   <!-- Se usa triple * o triple guion bajo ___ -->
+![negritacursiva](imagenes/negritacursiva.png)
+
 - Para poner texto tachado las frases o palabras usaremos este signo ~ <br>
 ~~TEXTO TACHADO~~
+![tachado](imagenes/tachado.png)
+
 ## ENCABEZADOS
 Usamos # para crear titulos. Cuantos mas # mas pequeño es el encabezado. <br>
 # Encabezado 1
