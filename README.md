@@ -11,31 +11,31 @@ Para que sirve:
 <img src="imagenes/git.jpg" alt="Logo git" width="300">
 
 ## ¿Como crear un repositorio en GitHub?
-**1º Paso** 
+**1º Paso** <br>
 Entramos a git hub y ponemos nuestra cuenta 
 
-**2º Paso** 
+**2º Paso** <br>
 Arriba a la derecha veremos un circulo con nuestra foto de perfil le damos click y veremos un apartado de perfil
 
 ![pasouno](imagenes/paso1.png)
 
-**3º Paso**
+**3º Paso**<br>
 Entramos ahi y se nos abrira una nueva interfas. En la parte de arriba veremos un apartado que se llama repositorio
 
  ![pasodos](imagenes/paso2.png)
 
- **4º Paso**
+ **4º Paso**<br>
  Hacemos click y le damos a **nuevo** 
 
  ![pasotres](imagenes/paso3.png)<br>
 
-**5º Paso**
+**5º Paso**<br>
 A continuacion veremos una interfaz donde nos pedira llenar los datos como el nombre, si queremos que sea privado o publico **(si mas adelante vamos a querer utilizar el github pages lo tenemos que poner en publico tambien lo podremos cambiar mas adelante)** entre otras cosas, lo llenamos depende de como lo pida el profesor. Marcamos la opcion Readme para que el repositorio se cree y se inicialice automaticamente en GitHub <br>
 **En caso que no se marque esta opcion el repositorio se creara vacio** <br>
 
 ![pasocuatro](imagenes/paso4.png)
 
-**6º Paso**
+**6º Paso**<br>
 Una vez creada el repositorio local, nos desplazamos a la raíz del repositorio clonado para trabajar con él, realizar modificaciones y sincronizar los cambios con GitHub cada vez que queramos, y para hacer esto implementamos estos comandos
 
 - **git init:** 
@@ -88,12 +88,12 @@ Este comando sirve para hacer cambios que se realizan en los archivos del reposi
 - **git push -u origi main:**
 Subimos los cambios al repositorio remoto 
 ## ¿Como importar en GitHub un repositorio ya existente?
-**1º Paso** 
+**1º Paso**<br>
 Vamos al repositorio, le hacemos click en la pestaña verde que se llama **Code** y copiamos la url que nos sale 
 
 ![importarrepositorio](imagenes/importar.png)
 
-**2º Paso**
+**2º Paso**<br>
 En repositorios vamos a crear un repositorio nuevo
 
 ![importarrepositorio](imagenes/importar2.png)
