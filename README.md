@@ -216,6 +216,7 @@ Esta es la sintaxis:
 ![bloquescodigo](imagenes/bloques.png)
 
 Y asi se veria en la pagina:
+
 ´´´html
 <p>Hola Mundo</p>
 ´´´
