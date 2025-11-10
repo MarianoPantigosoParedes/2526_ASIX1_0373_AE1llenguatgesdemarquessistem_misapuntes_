@@ -229,7 +229,7 @@ La sintaxis seria la siguiente:
 
 ![imagen](imagenes/imagen.png)
 
-Y asi se veria en la pagina 
+Y asi se veria en la pagina:
 
 ![imagen de un boxeador](imagenes/naoyainoue.jpg)
 
@@ -270,3 +270,18 @@ Y en la pagina se veria asi:
 | David | 20 | Colombia |
 | Carlos | 20 | Uruguay |
 | Adrian | 21 | Paraguay |
+
+## HTML
+Que es HTML?
+LENGUAJE DE MARCAS HTML (1991)
+Sirve para estructurar contenidos en páginas web
+Lo q hace es definir enlaces entre diferentes documentos que están entrelazados entre sí
+No se dedica para poder interactuar con el contenido solo estructura 
+Cada etiqueta de html empiezan con un menor que y acaban con un menor q y en el medio el nombre de la etiqueta <etiqueta> 
+Hipertext: es el texto que no necesariamente tiene q acabar en el mismo documento que empiece
+markup: todas las paginas estan construidas por etiquetas
+Lenguaje: formado por etiquetas q generan hipertextos
+Todas las etiquetas tienen etiquetas de inicio y algunas no tienen de cierre; inicio: <p> y cierre </p>
+Atributo 
+están dentro siempre de las etiquetas de apertura nunca los de cierre 
+<p class=”editor-note”>Mi gato es muy gruñón</p>
