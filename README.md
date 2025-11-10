@@ -8,7 +8,9 @@ Para que sirve:
 - Dejar que otros usuarios revisen tu codigo y realicen sugerencias para mejorarlo 
 - Para poder usar los comandos y sincronizarlo con el repositorio en la pagina tenemos que descargar la app **Git**
 
+<p align="center>
 <img src="imagenes/git.jpg" alt="Logo git" width="300">
+</p>
 
 ## ¿Como crear un repositorio en GitHub?
 **1º Paso** 
