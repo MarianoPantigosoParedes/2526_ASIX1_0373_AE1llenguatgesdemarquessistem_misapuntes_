@@ -122,7 +122,7 @@ Para poner imagenes en markdown desde una pagina web pondremos el siguiente codi
 ![anime](https://m.media-amazon.com/images/M/MV5BOWE2OTJkNzAtZWU1NC00YmQyLTk5ZWMtNzQ4MjQyZTI5YjhlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg)
 ## ENLACES
 Primero se incluye el texto del link entre corchetes y posteriormente el link entre parentesis
-[https://boxrec.com/es](https/Pagina web de el record actual de cada boxeador)
+[Pagina web de el record actual de cada boxeador](https://boxrec.com/es)
 ## TABLAS 
 Se usan barras verticales | para separar columnas y guiones - para crear el encabezado.
 | NOMBRE | EDAD | PAIS |
