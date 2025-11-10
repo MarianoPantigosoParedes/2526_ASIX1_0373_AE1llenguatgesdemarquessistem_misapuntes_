@@ -104,7 +104,8 @@ Esta es una lista enumerada
 
 ## CITAS Y CITAS ANIDADAS
 Una cita es para resaltar o citar texto, igual que en los correos o articulos. Se usa este simbolo >
-> Esto es una cita en Markdown <br>
+> Esto es una cita en Markdown 
+
 Una cita anidada es una cita que esta dentro de otra por ejemplo
 > Esto es una cita
 >> Esto es una cita anidada
