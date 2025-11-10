@@ -130,26 +130,34 @@ Es un lenguaje de marcado de codigo abierto creado por John Gruber. Contiene tex
 - Hay 2 formas de poner en negrita las frases o palabras. Se usa doble * o el doble guion bajo __ <br>
 **TEXTO EN NEGRITA** o __TEXTO EN NEGRITA__         <!-- Se usa doble * o el doble guion bajo __ -->
 
+Esta seria la sintaxis:
 ![negrita](imagenes/negrita.png)
 
 - Hay 2 formas de poner en cursiva las frases o palabras. Se usa un * o un guion bajo _ <br>
 *TEXTO EN CURSIVA* o _TEXTO EN CURSIVA_             <!-- Se usa un * o una guion bajo _ -->
 
+Esta seria la sintaxis:
 ![cursiva](imagenes/cursiva.png)
 
 - Hay 2 formas de poner en negrita y cursiva las frases o palabras. Se usa triple * o triple guion bajo <br>
 ***TEXTO EN NEGRITA Y CURSIVA*** o ___TEXTO EN NEGRITA Y CURSIVA___   <!-- Se usa triple * o triple guion bajo ___ -->
 
+Esta seria la sintaxis:
 ![negritacursiva](imagenes/negritacursiva.png)
 
 - Para poner texto tachado las frases o palabras usaremos este signo ~ <br>
-~~TEXTO TACHADO~~
+~~TEXTO TACHADO~~                   <!-- se usa ~~ al inicio y final-->
 
+Esta seria la sintaxis:
 ![tachado](imagenes/tachado.png)
 
 ## ENCABEZADOS
-Usamos # para crear titulos. Cuantos mas # mas pequeño es el encabezado. <br>
-# Encabezado 1
+Usamos # para crear titulos. Cuantos mas # mas pequeño es el encabezado. Esta es la sintaxis:<br>
+![encabezado](imagenes/encabezados.png)
+
+Y se veria asi en la pagina:
+
+# Encabezado 1              <!--En este caso puse encabezado como ejemplo, pero ahi iria el titulo de tu documento -->
 ## Encabezado 2
 ### Encabezado 3
 #### Encabezado 4
@@ -157,13 +165,19 @@ Usamos # para crear titulos. Cuantos mas # mas pequeño es el encabezado. <br>
 ###### Encabezado 6
 
 ## LISTAS
-Esta es una lista no ordenada:
- - Elemento 1
- - Elemento 2
+Esta es la sintaxis de una lista no ordenada:
+
+![listadesordenada](imagenes/listadesordenada.png)
+
+Y se veria asi en la pagina:
+ - Elemento 1                   
+ - Elemento 2          <!-- elementos vendria a ser el ejemplo aqui ustedes pueden poner cualquier cosa sin importar el orden ya que  es desordenada-->
  - Elemento 3 
-Esta es una lista enumerada
+
+Esta es la sintaxis de una lista enumerada:
+![listaordenada](imagenes/listaordenada.png)
 1. Elemento 1
-2. Elemento 2
+2. Elemento 2           <!-- elementos vendria a ser el ejemplo aqui ustedes pueden poner cualquier cosa, aqui el orden si importaria-->
 3. Elemento 3
     1. Sub-elemento
 
