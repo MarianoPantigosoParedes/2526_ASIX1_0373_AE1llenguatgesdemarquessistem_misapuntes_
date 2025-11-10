@@ -219,7 +219,6 @@ Y asi se veria en la pagina:
 
 ```html
 <p>Hola Mundo</p>
-```
 
 ## IMAGENES
 Para poner imagenes en markdown desde nuestra pc local, osea descargada usaremos el siguiente codigo, no olviden de poner bien la ruta:
