@@ -92,10 +92,10 @@ Usamos # para crear titulos. Cuantos mas # mas pequeño es el encabezado. <br>
 ###### Encabezado 6
 
 ## LISTAS
-Esta es una lista no ordenada 
- Elemento 1
- Elemento 2
- Elemento 3 
+Esta es una lista no ordenada:
+ - Elemento 1
+ - Elemento 2
+ - Elemento 3 
 Esta es una lista enumerada
 1. Elemento 1
 2. Elemento 2
@@ -113,5 +113,10 @@ Una cita anidada es una cita que esta dentro de otra por ejemplo
 ## BLOQUES DE CODIGO
 Para usar bloques de codigo agregaremos las '' comillas por ejemplo si queremos usar html haremos esto
 ```html
+<p>Hola Mundo</p>
+```
+## IMAGENES
+Para poner imagenes en markdown usaremos el siguiente codigo
+![imagen de un boxeador](https://imagenes/naoyainoue.jpg)
 
 
