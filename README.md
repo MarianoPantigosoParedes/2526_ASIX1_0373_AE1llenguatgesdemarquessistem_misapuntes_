@@ -110,17 +110,19 @@ En **old repository’s clone URL** pegamos la URL del repositorio que queremos 
 Por ultimo paso elegimos si queremos que el repositorio sea privado o publico 
 ## ¿Como activar GitHub Pages?
 **1º Paso** <br>
-Iremos a nuestro repositorio al apartado configuracion <br>
-![githubpages](imagenes/pages.png) <br>
+Iremos a nuestro repositorio al apartado configuracion 
+
+![githubpages](imagenes/pages.png) 
 
 **2º Paso** <br>
 Iremos a la opcion **PAGES** que esta en la parte inferior izquierda <br>
 **Recuerda que el repositorio tiene que ser publico para poder hacer esto** <br>
-![githubpages](imagenes/pages2.png) <br>
+![githubpages](imagenes/pages2.png) 
 
-**3º Paso**
-Escogemos a que rama asociar pages por defecto a **main** y a que carpeta por defecto **root** y guardamos la configuracion <br>
-![githubpages](imagenes/pages3.png) <br>
+**3º Paso** <br>
+Escogemos a que rama asociar pages por defecto a **main** y a que carpeta por defecto **root** y guardamos la configuracion 
+
+![githubpages](imagenes/pages3.png)
 
 # MARKDOWN 
 Es un lenguaje de marcado de codigo abierto creado por John Gruber. Contiene texto plano formateado. Este archivo se compone de un nombre y una extension que en este caso la de Markdown es **.md** 
