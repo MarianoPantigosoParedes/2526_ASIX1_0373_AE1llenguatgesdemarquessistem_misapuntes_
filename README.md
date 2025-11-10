@@ -11,30 +11,31 @@ Para que sirve:
 ![logogithub](imagenes/git.jpg)
 
 ## ¿Como crear un repositorio en GitHub?
-**1º Paso** <br>
-Entramos a git hub y ponemos nuestra cuenta <br>
-**2º Paso** <br>
+**1º Paso** 
+Entramos a git hub y ponemos nuestra cuenta 
+
+**2º Paso** 
 Arriba a la derecha veremos un circulo con nuestra foto de perfil le damos click y veremos un apartado de perfil
 
 ![pasouno](imagenes/paso1.png)
 
-**3º Paso**<br>
+**3º Paso**
 Entramos ahi y se nos abrira una nueva interfas. En la parte de arriba veremos un apartado que se llama repositorio
 
  ![pasodos](imagenes/paso2.png)
 
- **4º Paso**<br>
+ **4º Paso**
  Hacemos click y le damos a **nuevo** 
 
  ![pasotres](imagenes/paso3.png)<br>
 
-**5º Paso**<br>
+**5º Paso**
 A continuacion veremos una interfaz donde nos pedira llenar los datos como el nombre, si queremos que sea privado o publico **(si mas adelante vamos a querer utilizar el github pages lo tenemos que poner en publico tambien lo podremos cambiar mas adelante)** entre otras cosas, lo llenamos depende de como lo pida el profesor. Marcamos la opcion Readme para que el repositorio se cree y se inicialice automaticamente en GitHub <br>
 **En caso que no se marque esta opcion el repositorio se creara vacio** <br>
 
 ![pasocuatro](imagenes/paso4.png)
 
-**6º Paso**<br>
+**6º Paso**
 Una vez creada el repositorio local, nos desplazamos a la raíz del repositorio clonado para trabajar con él, realizar modificaciones y sincronizar los cambios con GitHub cada vez que queramos, y para hacer esto implementamos estos comandos
 
 - **git init:** 
@@ -45,7 +46,7 @@ Este comando nos servira para inicializar el repositorio de nuestro local con el
 - **git add . :**
 Este comando servira para agregar los elementos que hemos puesto en la nueva version
 
-![gitadd](imagenes/gitadd.png)<
+![gitadd](imagenes/gitadd.png)
 
 - **git commit -m "AÑADIR TITULO":**
 Este comando servira para añadir una descripcion de lo que agregamos al repositorio
