@@ -344,7 +344,7 @@ Contiene información interna o metadatos del sitio que no se muestran directame
 
 Cierra la sección del encabezado.
 
-|[cierrehead](imagenes/cierrehead.png)
+![cierrehead](imagenes/cierrehead.png)
 
 < meta charset="UTF-8" > : 
 
@@ -356,7 +356,7 @@ Define el tipo de codificación de caracteres (UTF-8 permite usar tildes, ñ, et
 
 Hace que la página se vea bien en dispositivos móviles.
 
-|[meta](imagenes/meta.png)
+![meta](imagenes/meta.png)
 
 < title > : 
 
