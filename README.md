@@ -322,14 +322,68 @@ Esta es la estructura de html a continuacion les ire diciendo que es cada etique
 
 ```
 
-<!DOCTYPE html> : Indica que el documento está escrito en HTML5. Esto ayuda al navegador a interpretarlo correctamente.
-<html lang="es">: Es la etiqueta raíz de todo el documento. El atributo lang="es" indica el idioma (en este caso, español).
-<head> : Contiene información interna o metadatos del sitio que no se muestran directamente en la página.
-</head> : Cierra la sección del encabezado.
-<meta charset="UTF-8"> : Define el tipo de codificación de caracteres (UTF-8 permite usar tildes, ñ, etc.).
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> : Hace que la página se vea bien en dispositivos móviles.
-<title> : Título que aparece en la pestaña del navegador.
-<p> : Es un párrafo de texto.
-<body> : Aquí va todo el contenido visible de la página: texto, imágenes, enlaces, botones, etc.
-</body> : Cierra el cuerpo del documento.
-</html> : Cierra el documento HTML.
+ < !DOCTYPE html > : 
+ 
+ Indica que el documento está escrito en HTML5. Esto ayuda al navegador a interpretarlo correctamente.
+
+ ![docttype](imagenes/doctype.png)
+
+ < html lang="es" > : 
+
+ Es la etiqueta raíz de todo el documento. El atributo lang="es" indica el idioma (en este caso, español).
+
+![lang](imagenes/lang.png)
+
+< head > : 
+
+Contiene información interna o metadatos del sitio que no se muestran directamente en la página.
+
+![head](imagenes/head.png)
+
+< /head > : 
+
+Cierra la sección del encabezado.
+
+|[cierrehead](imagenes/cierrehead.png)
+
+< meta charset="UTF-8" > : 
+
+Define el tipo de codificación de caracteres (UTF-8 permite usar tildes, ñ, etc.).
+
+![metacharset](imagenes/metacharset.png)
+
+< meta name="viewport" content="width=device-width, initial-scale=1.0" > : 
+
+Hace que la página se vea bien en dispositivos móviles.
+
+|[meta](imagenes/meta.png)
+
+< title > : 
+
+Título que aparece en la pestaña del navegador.
+
+![title](imagenes/title.png)
+
+< p > : 
+
+Es un párrafo de texto.
+
+![p](imagenes/p.png)
+
+< body > : 
+
+Aquí va todo el contenido visible de la página: texto, imágenes, enlaces, botones, etc.
+
+![body](imagenes/body.png)
+
+< /body > : 
+
+Cierra el cuerpo del documento.
+
+![cierrebody](imagenes/cierrebody.png)
+
+< /html > : 
+
+Cierra el documento HTML.
+
+![cierrehtml](imagenes/cierrehtml.png)
