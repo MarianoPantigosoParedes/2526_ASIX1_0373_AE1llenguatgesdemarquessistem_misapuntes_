@@ -276,12 +276,20 @@ Y en la pagina se veria asi:
 
 LENGUAJE DE MARCAS HTML (1991)
 
-Sirve para estructurar contenidos en páginas web, lo q hace es definir enlaces entre diferentes documentos que están entrelazados entre sí. No se dedica para poder interactuar con el contenido solo estructura. Cada etiqueta de html empiezan con un menor que y acaban con un menor que y en el medio el nombre de la etiqueta 
+Sirve para estructurar contenidos en páginas web, lo q hace es definir enlaces entre diferentes documentos que están entrelazados entre sí. No se dedica para poder interactuar con el contenido solo estructura. 
+Cada etiqueta de html empiezan con un menor que y acaban con un menor que y en el medio el nombre de la etiqueta 
 
-**Hipertext**: Es el texto que no necesariamente tiene q acabar en el mismo documento que empiece
+![etiqueta](imagenes/etiqueta.png)
+
+<etiqueta>
+
+**Hipertext**: Es el texto que que se enlaza con otros contenidos. Esto es la base del funcionamiento de la web tal y como la conocemos, que no es mas que paginas y recursos interconectados.
+
 **markup**: Todas las paginas estan construidas por etiquetas
+
 **Lenguaje**: Formado por etiquetas que generan hipertextos
 Todas las etiquetas tienen etiquetas de inicio y algunas no tienen de cierre; inicio: '<p>' y cierre '</p>'
+
 **Atributo**: Están dentro siempre de las etiquetas de apertura nunca los de cierre, por ejemplo:
 
 Aqui class es el nombre del atributo y editor-note es el valor del atributo, en este caso, el atributo class permite darle al elemento un nombre identificativo, que se pueda utilizar luego para apuntarle al elemento informacion de estilo y demas cosas.
@@ -293,3 +301,20 @@ La sintaxis seria la siguiente:
 Y en la pagina web se veria asi:
 
 <p class=”editor-note”>Mi gato es muy gruñón</p>
+
+## ESTRUCTURA DE HTML
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructura de HTML</title>
+    <link rel="icon" href="multimedia/kiwi.svg">
+</head>
+<body>
+
+</body>
+</html>
+
+```
