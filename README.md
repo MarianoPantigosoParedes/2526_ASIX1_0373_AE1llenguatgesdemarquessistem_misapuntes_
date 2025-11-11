@@ -272,16 +272,24 @@ Y en la pagina se veria asi:
 | Adrian | 21 | Paraguay |
 
 ## HTML
-Que es HTML?
+¿Que es HTML?
+
 LENGUAJE DE MARCAS HTML (1991)
-Sirve para estructurar contenidos en páginas web
-Lo q hace es definir enlaces entre diferentes documentos que están entrelazados entre sí
-No se dedica para poder interactuar con el contenido solo estructura 
-Cada etiqueta de html empiezan con un menor que y acaban con un menor q y en el medio el nombre de la etiqueta <etiqueta> 
-Hipertext: es el texto que no necesariamente tiene q acabar en el mismo documento que empiece
-markup: todas las paginas estan construidas por etiquetas
-Lenguaje: formado por etiquetas q generan hipertextos
-Todas las etiquetas tienen etiquetas de inicio y algunas no tienen de cierre; inicio: <p> y cierre </p>
-Atributo 
-están dentro siempre de las etiquetas de apertura nunca los de cierre 
+
+Sirve para estructurar contenidos en páginas web, lo q hace es definir enlaces entre diferentes documentos que están entrelazados entre sí. No se dedica para poder interactuar con el contenido solo estructura. Cada etiqueta de html empiezan con un menor que y acaban con un menor que y en el medio el nombre de la etiqueta 
+
+**Hipertext**: Es el texto que no necesariamente tiene q acabar en el mismo documento que empiece
+**markup**: Todas las paginas estan construidas por etiquetas
+**Lenguaje**: Formado por etiquetas que generan hipertextos
+Todas las etiquetas tienen etiquetas de inicio y algunas no tienen de cierre; inicio: '<p>' y cierre '</p>'
+**Atributo**: Están dentro siempre de las etiquetas de apertura nunca los de cierre, por ejemplo:
+
+Aqui class es el nombre del atributo y editor-note es el valor del atributo, en este caso, el atributo class permite darle al elemento un nombre identificativo, que se pueda utilizar luego para apuntarle al elemento informacion de estilo y demas cosas.
+
+La sintaxis seria la siguiente:
+
+![atributo](imagenes/atributo.png)
+
+Y en la pagina web se veria asi:
+
 <p class=”editor-note”>Mi gato es muy gruñón</p>
