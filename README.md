@@ -388,7 +388,7 @@ Cierra el documento HTML.
 
 ![cierrehtml](imagenes/cierrehtml.png)
 
-```html
+
 
 <!DOCTYPE html>
 <html lang="en">
