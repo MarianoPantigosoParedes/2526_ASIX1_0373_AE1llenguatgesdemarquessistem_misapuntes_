@@ -408,4 +408,3 @@ Cierra el documento HTML.
 </body>
 </html>
 
-```
