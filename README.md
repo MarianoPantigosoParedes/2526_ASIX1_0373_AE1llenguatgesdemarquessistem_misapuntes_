@@ -387,3 +387,25 @@ Cierra el cuerpo del documento.
 Cierra el documento HTML.
 
 ![cierrehtml](imagenes/cierrehtml.png)
+
+```html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructura de HTML</title>
+    <link rel="icon" href="multimedia/kiwi.svg">
+</head>
+<body>
+    <h1> TITULO PRINCIPAL</h1>
+    <h2> SUBTITULOS </h2>
+    <h3> SUB-SUBTITULO </h3>
+    <h4> ENCABEZADO 4 </h4>
+    <h5> ENCABEZADO 5 </h5>
+    <h6> ENCABEZADO 6 </h6>
+</body>
+</html>
+
+```
