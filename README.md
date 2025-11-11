@@ -388,7 +388,10 @@ Cierra el documento HTML.
 
 ![cierrehtml](imagenes/cierrehtml.png)
 
-## ENCABEZADOS Y TITULOS EN HTML
+
+## ELEMENTOS DE BLOQUE HTML
+
+- **Encabezados y titulos**
 
 Los titulos y encabezados van desde el < h1 > hasta el < h6 >, y se veria tal que asi en nuestra pagina web:
 
@@ -413,11 +416,29 @@ Los titulos y encabezados van desde el < h1 > hasta el < h6 >, y se veria tal qu
 El codigo que usaremos sera el siguiente: 
 ![encabezadohtml](imagenes/encabezadohtml.png)
 
-## SALTO DE LINEA HTML
-
+- **Salto de linea**
 Para hacer un salto de linea en html usaremos el < br >
 
 A continuacion les pondre un ejemplo de como se veria
 <p>Hola me llamo Mariano</p> <br>
 <p>Hola me llamo Johan</p>
+
+El codigo que implementamos fue el siguiente: 
+![saltodelinea](imagenes/saltodelinea.png)
+
+- **Separador**
+Para incluir un separador en html usaremos el < hr >. Esto sirve para separar secciones de contenido dentro de una página web con una línea horizontal.
+
+A continuacion les pondre un ejemplo de como se veria
+
+<h2>Separador</h2><hr>
+<p>Esto es un separador</p>
+
+El codigo que implementamos fue el siguiente:
+![separador](imagenes/separador.png)
+
+- **
+
+
+
 
