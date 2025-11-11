@@ -388,7 +388,9 @@ Cierra el documento HTML.
 
 ![cierrehtml](imagenes/cierrehtml.png)
 
+## ENCABEZADOS Y TITULOS EN HTML
 
+Los titulos y encabezados van desde el < h1 > hasta el < h6 >, y se veria tal que asi en nuestra pagina web:
 
 <!DOCTYPE html>
 <html lang="en">
@@ -407,4 +409,15 @@ Cierra el documento HTML.
     <h6> ENCABEZADO 6 </h6>
 </body>
 </html>
+
+El codigo que usaremos sera el siguiente: 
+![encabezadohtml](imagenes/encabezadohtml.png)
+
+## SALTO DE LINEA HTML
+
+Para hacer un salto de linea en html usaremos el < br >
+
+A continuacion les pondre un ejemplo de como se veria
+<p>Hola me llamo Mariano</p> <br>
+<p>Hola me llamo Johan</p>
 
