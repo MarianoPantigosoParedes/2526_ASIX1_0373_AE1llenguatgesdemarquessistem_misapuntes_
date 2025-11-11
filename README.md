@@ -303,6 +303,9 @@ Y en la pagina web se veria asi:
 <p class=”editor-note”>Mi gato es muy gruñón</p>
 
 ## ESTRUCTURA DE HTML
+
+Esta es la estructura de html a continuacion les ire diciendo que es cada etiqueta que hay dentro y su funcion.
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -318,3 +321,15 @@ Y en la pagina web se veria asi:
 </html>
 
 ```
+
+<!DOCTYPE html> : Indica que el documento está escrito en HTML5. Esto ayuda al navegador a interpretarlo correctamente.
+<html lang="es">: Es la etiqueta raíz de todo el documento. El atributo lang="es" indica el idioma (en este caso, español).
+<head> : Contiene información interna o metadatos del sitio que no se muestran directamente en la página.
+</head> : Cierra la sección del encabezado.
+<meta charset="UTF-8"> : Define el tipo de codificación de caracteres (UTF-8 permite usar tildes, ñ, etc.).
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> : Hace que la página se vea bien en dispositivos móviles.
+<title> : Título que aparece en la pestaña del navegador.
+<p> : Es un párrafo de texto.
+<body> : Aquí va todo el contenido visible de la página: texto, imágenes, enlaces, botones, etc.
+</body> : Cierra el cuerpo del documento.
+</html> : Cierra el documento HTML.
