@@ -404,7 +404,7 @@ Los titulos y encabezados van desde el < h1 > hasta el < h6 >, y se veria tal qu
     <link rel="icon" href="multimedia/kiwi.svg">
 </head>
 <body>
-    <h1> TITULO PRINCIPAL</h1>
+     <h1> TITULO PRINCIPAL</h1>
     <h2> SUBTITULOS </h2>
     <h3> SUB-SUBTITULO </h3>
     <h4> ENCABEZADO 4 </h4>
@@ -414,6 +414,7 @@ Los titulos y encabezados van desde el < h1 > hasta el < h6 >, y se veria tal qu
 </html>
 
 El codigo que usaremos sera el siguiente: 
+
 ![encabezadohtml](imagenes/encabezadohtml.png)
 
 - **Salto de linea**
@@ -424,6 +425,7 @@ A continuacion les pondre un ejemplo de como se veria
 <p>Hola me llamo Johan</p>
 
 El codigo que implementamos fue el siguiente: 
+
 ![saltodelinea](imagenes/saltodelinea.png)
 
 - **Separador**
@@ -435,10 +437,95 @@ A continuacion les pondre un ejemplo de como se veria
 <p>Esto es un separador</p>
 
 El codigo que implementamos fue el siguiente:
+
 ![separador](imagenes/separador.png)
 
-- **
+## ELEMENTOS DE LINEA
 
+- **Enfasis o cursiva**
+Para usar enfasis o cursiva usaremos el < em >
 
+A continuacion les pondre un ejemplo de como se veria en la pagina y el codigo implementado
 
+![cursivahtml](imagenes/cursivahtml.png)
 
+<em>Hola soy Mariano</em>
+
+- **Negrita**
+Para poner en negrita un texto usaremos el < strong >, tambien se podria usar el < br > pero es muy antiguo y habria navegadores que tendrian problema en reconocerlo
+
+A continuacion les pondre un ejemplo de como se veria en la pagina y el codigo implementado
+
+![negritahtml](imagenes/negritahtml.png)
+
+<br>Me gusta el chocolate</br>
+<strong>Me gusta el chocolate</strong>
+
+## RESUMEN DE NORMAS BASICAS DE HTML
+- Las etiquetas de html normalmente vienen en pares, con una etiqueta de cierre y otra de apertura
+- Algunas etiquetas son vacias osea que no tienen etiqueta de cierre como por ejemplo: < img >, < br >, y < input >
+- Las etiquetas siempre deben anidarse correctamente para que funcionen 
+- Las atributos de las etiquetas se esepcifican en la etiqueta de apertura y su formato es **nombre=="valor"**
+- Aunque las etiquetas y atributos funcionen con mayusculas o minusculas, la recomendacion es que todo se escriba en minuscula
+
+## COMENTARIOS
+En un documento html podemos poner anotaciones que no se veran en la pagina web, pero son muy utiles para el desarrollador web, ya que hay que pensar que no siempre trabajaremos solos y es muy importante comentar el codigo fuente sobre todo si se trata de un documento muy largo
+
+La estrucutra de un comentario es la siguiente
+<!-- Esto es un comentario en HTML -->
+
+![comentariohtml](imagenes/comentariohtml.png)
+
+Y en un documento se veria asi
+
+![comentariohtml2](imagenes/comentariohtml2.png)
+
+## LISTAS
+- **Listas ordenadas**
+
+Son aquellas en las que el orden de los elementos si importan. Estan dentro del elemento < ol > que significa **orden list** y dentro de ahi van las < li > que significa **list item**. Aqui al abrir la etiqueta dentro de ahi podemos escribir **type=""** y dentro de las comillas poner A, a, l, 1 para que coja diferentes estilos la lista.
+
+A continuacion les pondre un ejemplo de como se veria en la pagina y el codigo implementado
+
+![ordenlist](imagenes/ordenlist.png)
+
+<ol>
+    <li>Manzana</li>
+    <li>Pera</li>
+    <li>Naranja</li>
+</ol>
+
+Tambien podemos añadir parametro como **start=n** que se fuerza la numeracion a partir de un determinado valor, añadiendo el parametro **value=n** se fuerza a que el elemento tenga el numero de orden que indiquemos 
+
+- **Listas desordenadas**
+
+Son aquellas en las que el orden de los elementos no importan. Estan dentro del elemento < ul > que significa **unordered list** y dentro de ahi van las < li > que significa **list item**. Aqui al abrir la etiqueta dentro de ahi podemos escribir **type=""** y dentro de las comillas poner DISC, SQUARE y CIRCLE, para que coja diferentes estilos la lista
+
+A continuacion les pondre un ejemplo de como se veria en la pagina y el codigo implementado
+
+![ul](imagenes/ul.png)
+
+<ul>
+    <li>Platano</li>
+    <li>Kiwi</li>
+</ul>
+
+## RUTAS
+- **Ruta relativa**: Especifica la ubicacion del archivo en relacion con la ubicacion del documento actual
+
+A continuacion les pondre un ejemplo de como se veria en la pagina y el codigo implementado
+
+En este ejemplo pondremos una imagen en el indice
+
+![rutarelativa](imagenes/rutarelativa.png)
+
+El codigo implementado sera el siguiente
+
+![ejemplo](imagenes/ejemplorutarelativa.png)
+
+**alt** es el texto que saldria si en caso no carga la imagen, tambien podemos ajustar las medidas de las imagenes con **width** y **height**
+
+- **Ruta absoluta**: Especifica la ubicacion del archivo en la web, comenzando desde el dominio. Es util cuando el archivo se encuentra en un servidor diferente o en una ubicacion especifica de la web. Aqui no hace falta tener la imagen descargada. Pondrias el mismo codigo que en el de la ruta relativa y solo cambiariamos el src que esta vez seria la url de la imagen
+
+## IMAGENES 
+Son un recurso importante para las paginas webs ya que las hacen mas llamativas y nos permite proporcionar informacion de manera visual. La etiqueta que usaremos sera **< img >**, usaremos el atributo **< src >** para poner la ubicacion de la imagen. Tambien usaremos **alt** que es el texto que saldria si en caso no carga la imagen, tambien podemos ajustar las medidas de las imagenes con **width** y **height**
