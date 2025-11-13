@@ -322,67 +322,67 @@ Esta es la estructura de html a continuacion les ire diciendo que es cada etique
 
 ```
 
- < !DOCTYPE html > : 
+&lt;!DOCTYPE html&gt;
  
  Indica que el documento está escrito en HTML5. Esto ayuda al navegador a interpretarlo correctamente.
 
  ![docttype](imagenes/doctype.png)
 
- < html lang="es" > : 
+&lt;html lang="es" &gt; 
 
  Es la etiqueta raíz de todo el documento. El atributo lang="es" indica el idioma (en este caso, español).
 
 ![lang](imagenes/lang.png)
 
-< head > : 
+ &lt;head&gt;
 
 Contiene información interna o metadatos del sitio que no se muestran directamente en la página.
 
 ![head](imagenes/head.png)
 
-< /head > : 
+&lt;/head&gt;
 
 Cierra la sección del encabezado.
 
 ![cierrehead](imagenes/cierrehead.png)
 
-< meta charset="UTF-8" > : 
+&lt;meta charset="UTF-8"&gt;
 
 Define el tipo de codificación de caracteres (UTF-8 permite usar tildes, ñ, etc.).
 
 ![metacharset](imagenes/metacharset.png)
 
-< meta name="viewport" content="width=device-width, initial-scale=1.0" > : 
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
 
 Hace que la página se vea bien en dispositivos móviles.
 
 ![meta](imagenes/meta.png)
 
-< title > : 
+&lt;title&gt;
 
 Título que aparece en la pestaña del navegador.
 
 ![title](imagenes/title.png)
 
-< p > : 
+&lt;p&gt;
 
 Es un párrafo de texto.
 
 ![p](imagenes/p.png)
 
-< body > : 
+&lt;body&gt;
 
 Aquí va todo el contenido visible de la página: texto, imágenes, enlaces, botones, etc.
 
 ![body](imagenes/body.png)
 
-< /body > : 
+&lt;/body&gt;
 
 Cierra el cuerpo del documento.
 
 ![cierrebody](imagenes/cierrebody.png)
 
-< /html > : 
+&lt;/html&gt;
 
 Cierra el documento HTML.
 
@@ -393,7 +393,7 @@ Cierra el documento HTML.
 
 - **Encabezados y titulos**
 
-Los titulos y encabezados van desde el < h1 > hasta el < h6 >, y se veria tal que asi en nuestra pagina web:
+Los titulos y encabezados van desde el &lt;h1&gt; hasta el &lt;h6&gt;, y se veria tal que asi en nuestra pagina web:
 
 <!DOCTYPE html>
 <html lang="en">
@@ -418,7 +418,7 @@ El codigo que usaremos sera el siguiente:
 ![encabezadohtml](imagenes/encabezadohtml.png)
 
 - **Salto de linea**
-Para hacer un salto de linea en html usaremos el < br >
+Para hacer un salto de linea en html usaremos el &lt;br&gt;
 
 A continuacion les pondre un ejemplo de como se veria
 <p>Hola me llamo Mariano</p> <br>
@@ -429,7 +429,7 @@ El codigo que implementamos fue el siguiente:
 ![saltodelinea](imagenes/saltodelinea.png)
 
 - **Separador**
-Para incluir un separador en html usaremos el < hr >. Esto sirve para separar secciones de contenido dentro de una página web con una línea horizontal.
+Para incluir un separador en html usaremos el &lt;hr&gt;. Esto sirve para separar secciones de contenido dentro de una página web con una línea horizontal.
 
 A continuacion les pondre un ejemplo de como se veria
 
@@ -443,7 +443,7 @@ El codigo que implementamos fue el siguiente:
 ## ELEMENTOS DE LINEA
 
 - **Enfasis o cursiva**
-Para usar enfasis o cursiva usaremos el < em >
+Para usar enfasis o cursiva usaremos el &lt;em&gt;
 
 A continuacion les pondre un ejemplo de como se veria en la pagina y el codigo implementado
 
@@ -452,7 +452,7 @@ A continuacion les pondre un ejemplo de como se veria en la pagina y el codigo i
 <em>Hola soy Mariano</em>
 
 - **Negrita**
-Para poner en negrita un texto usaremos el < strong >, tambien se podria usar el < br > pero es muy antiguo y habria navegadores que tendrian problema en reconocerlo
+Para poner en negrita un texto usaremos el &lt;strong&gt;, tambien se podria usar el &lt;br&gt; pero es muy antiguo y habria navegadores que tendrian problema en reconocerlo
 
 A continuacion les pondre un ejemplo de como se veria en la pagina y el codigo implementado
 
@@ -463,7 +463,7 @@ A continuacion les pondre un ejemplo de como se veria en la pagina y el codigo i
 
 ## RESUMEN DE NORMAS BASICAS DE HTML
 - Las etiquetas de html normalmente vienen en pares, con una etiqueta de cierre y otra de apertura
-- Algunas etiquetas son vacias osea que no tienen etiqueta de cierre como por ejemplo: < img >, < br >, y < input >
+- Algunas etiquetas son vacias osea que no tienen etiqueta de cierre como por ejemplo: &lt;img&gt;, &lt;br&gt;, y &lt;input&gt;
 - Las etiquetas siempre deben anidarse correctamente para que funcionen 
 - Las atributos de las etiquetas se esepcifican en la etiqueta de apertura y su formato es **nombre=="valor"**
 - Aunque las etiquetas y atributos funcionen con mayusculas o minusculas, la recomendacion es que todo se escriba en minuscula
@@ -483,7 +483,7 @@ Y en un documento se veria asi
 ## LISTAS
 - **Listas ordenadas**
 
-Son aquellas en las que el orden de los elementos si importan. Estan dentro del elemento < ol > que significa **orden list** y dentro de ahi van las < li > que significa **list item**. Aqui al abrir la etiqueta dentro de ahi podemos escribir **type=""** y dentro de las comillas poner A, a, l, 1 para que coja diferentes estilos la lista.
+Son aquellas en las que el orden de los elementos si importan. Estan dentro del elemento &lt;ol&gt; que significa **orden list** y dentro de ahi van las &lt;li&gt; que significa **list item**. Aqui al abrir la etiqueta dentro de ahi podemos escribir **type=""** y dentro de las comillas poner A, a, l, 1 para que coja diferentes estilos la lista.
 
 A continuacion les pondre un ejemplo de como se veria en la pagina y el codigo implementado
 
@@ -499,7 +499,7 @@ Tambien podemos añadir parametro como **start=n** que se fuerza la numeracion a
 
 - **Listas desordenadas**
 
-Son aquellas en las que el orden de los elementos no importan. Estan dentro del elemento < ul > que significa **unordered list** y dentro de ahi van las < li > que significa **list item**. Aqui al abrir la etiqueta dentro de ahi podemos escribir **type=""** y dentro de las comillas poner DISC, SQUARE y CIRCLE, para que coja diferentes estilos la lista
+Son aquellas en las que el orden de los elementos no importan. Estan dentro del elemento &lt;ul&gt; que significa **unordered list** y dentro de ahi van las &lt;li&gt; que significa **list item**. Aqui al abrir la etiqueta dentro de ahi podemos escribir **type=""** y dentro de las comillas poner DISC, SQUARE y CIRCLE, para que coja diferentes estilos la lista
 
 A continuacion les pondre un ejemplo de como se veria en la pagina y el codigo implementado
 
