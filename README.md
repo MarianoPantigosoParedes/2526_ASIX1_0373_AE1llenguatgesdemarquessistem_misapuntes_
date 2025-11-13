@@ -424,6 +424,7 @@ A continuacion les pondre un ejemplo de como se veria
 <p>Hola me llamo Johan</p>
 
 El codigo que implementamos fue el siguiente: 
+
 ![saltodelinea](imagenes/saltodelinea.png)
 
 - **Separador**
@@ -435,6 +436,7 @@ A continuacion les pondre un ejemplo de como se veria
 <p>Esto es un separador</p>
 
 El codigo que implementamos fue el siguiente:
+
 ![separador](imagenes/separador.png)
 
 - **
