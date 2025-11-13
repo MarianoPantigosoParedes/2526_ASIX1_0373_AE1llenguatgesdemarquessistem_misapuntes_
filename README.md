@@ -404,7 +404,7 @@ Los titulos y encabezados van desde el < h1 > hasta el < h6 >, y se veria tal qu
     <link rel="icon" href="multimedia/kiwi.svg">
 </head>
 <body>
-    <h1> TITULO PRINCIPAL</h1>
+     <h1> TITULO PRINCIPAL</h1>
     <h2> SUBTITULOS </h2>
     <h3> SUB-SUBTITULO </h3>
     <h4> ENCABEZADO 4 </h4>
@@ -414,6 +414,7 @@ Los titulos y encabezados van desde el < h1 > hasta el < h6 >, y se veria tal qu
 </html>
 
 El codigo que usaremos sera el siguiente: 
+
 ![encabezadohtml](imagenes/encabezadohtml.png)
 
 - **Salto de linea**
@@ -439,8 +440,168 @@ El codigo que implementamos fue el siguiente:
 
 ![separador](imagenes/separador.png)
 
-- **
+## ELEMENTOS DE LINEA
 
+- **Enfasis o cursiva**
+Para usar enfasis o cursiva usaremos el < em >
 
+A continuacion les pondre un ejemplo de como se veria en la pagina y el codigo implementado
+
+![cursivahtml](imagenes/cursivahtml.png)
+
+<em>Hola soy Mariano</em>
+
+- **Negrita**
+Para poner en negrita un texto usaremos el < strong >, tambien se podria usar el < br > pero es muy antiguo y habria navegadores que tendrian problema en reconocerlo
+
+A continuacion les pondre un ejemplo de como se veria en la pagina y el codigo implementado
+
+![negritahtml](imagenes/negritahtml.png)
+
+<br>Me gusta el chocolate</br>
+<strong>Me gusta el chocolate</strong>
+
+## RESUMEN DE NORMAS BASICAS DE HTML
+- Las etiquetas de html normalmente vienen en pares, con una etiqueta de cierre y otra de apertura
+- Algunas etiquetas son vacias osea que no tienen etiqueta de cierre como por ejemplo: < img >, < br >, y < input >
+- Las etiquetas siempre deben anidarse correctamente para que funcionen 
+- Las atributos de las etiquetas se esepcifican en la etiqueta de apertura y su formato es **nombre=="valor"**
+- Aunque las etiquetas y atributos funcionen con mayusculas o minusculas, la recomendacion es que todo se escriba en minuscula
+
+## COMENTARIOS
+En un documento html podemos poner anotaciones que no se veran en la pagina web, pero son muy utiles para el desarrollador web, ya que hay que pensar que no siempre trabajaremos solos y es muy importante comentar el codigo fuente sobre todo si se trata de un documento muy largo
+
+La estrucutra de un comentario es la siguiente
+<!-- Esto es un comentario en HTML -->
+
+![comentariohtml](imagenes/comentariohtml.png)
+
+Y en un documento se veria asi
+
+![comentariohtml2](imagenes/comentariohtml2.png)
+
+## LISTAS
+- **Listas ordenadas**
+
+Son aquellas en las que el orden de los elementos si importan. Estan dentro del elemento < ol > que significa **orden list** y dentro de ahi van las < li > que significa **list item**. Aqui al abrir la etiqueta dentro de ahi podemos escribir **type=""** y dentro de las comillas poner A, a, l, 1 para que coja diferentes estilos la lista.
+
+A continuacion les pondre un ejemplo de como se veria en la pagina y el codigo implementado
+
+![ordenlist](imagenes/ordenlist.png)
+
+<ol>
+    <li>Manzana</li>
+    <li>Pera</li>
+    <li>Naranja</li>
+</ol>
+
+Tambien podemos añadir parametro como **start=n** que se fuerza la numeracion a partir de un determinado valor, añadiendo el parametro **value=n** se fuerza a que el elemento tenga el numero de orden que indiquemos 
+
+- **Listas desordenadas**
+
+Son aquellas en las que el orden de los elementos no importan. Estan dentro del elemento < ul > que significa **unordered list** y dentro de ahi van las < li > que significa **list item**. Aqui al abrir la etiqueta dentro de ahi podemos escribir **type=""** y dentro de las comillas poner DISC, SQUARE y CIRCLE, para que coja diferentes estilos la lista
+
+A continuacion les pondre un ejemplo de como se veria en la pagina y el codigo implementado
+
+![ul](imagenes/ul.png)
+
+<ul>
+    <li>Platano</li>
+    <li>Kiwi</li>
+</ul>
+
+## RUTAS
+- **Ruta relativa**: Especifica la ubicacion del archivo en relacion con la ubicacion del documento actual
+
+A continuacion les pondre un ejemplo de como se veria en la pagina y el codigo implementado
+
+En este ejemplo pondremos una imagen en el indice
+
+![rutarelativa](imagenes/rutarelativa.png)
+
+El codigo implementado sera el siguiente
+
+![ejemplo](imagenes/ejemplorutarelativa.png)
+
+**alt** es el texto que saldria si en caso no carga la imagen, tambien podemos ajustar las medidas de las imagenes con **width** y **height**
+
+- **Ruta absoluta**: Especifica la ubicacion del archivo en la web, comenzando desde el dominio. Es util cuando el archivo se encuentra en un servidor diferente o en una ubicacion especifica de la web. Aqui no hace falta tener la imagen descargada. Pondrias el mismo codigo que en el de la ruta relativa y solo cambiariamos el src que esta vez seria la url de la imagen
+
+## IMAGENES 
+Son un recurso importante para las paginas webs ya que las hacen mas llamativas y nos permite proporcionar informacion de manera visual. La etiqueta que usaremos sera **&lt;img&gt;**, usaremos el atributo **src** para poner la ubicacion de la imagen. Tambien usaremos **alt** que es el texto que saldria si en caso no carga la imagen, tambien podemos ajustar las medidas de las imagenes con **width** y **height**
+
+## ENLACES
+Es el sistema que nos permite esta navegacion se llama hipertexto. La etiqueta de html para crear estos enlaces es **&lt;a&gt;**, es una etiqueta de linea ya que podemos colocar enlaces rodeados de texto, para indicar cual es nuestro destino utilizamos el atributo **href**
+
+- **Enlaces a paginas externas**
+
+Si queremos hacer un enlace a una pagina externa, como por ejemplo al sitio web https://www.youtube.com, y el texto que queramos que aparezca en el navegador es "youtube". El codigo que implementaremos sera el siguiente:
+
+<a href="https://www.youtube.com" tittle="Pagina_youtube">Youtube</a>
+
+![paginasexternas](imagenes/paginasexternas.png)
+
+- **Enlaces a paginas locales**
+
+Si el enlace que queremos hacer esta en dirigido a documento local nuestro, podemos usar la ruta relativa al archivo al cual queremos enlazar el atributo **href** 
+
+Por ejemplo en este caso queremos ir desde discografia hasta index, nuestro documento esta organizado de esta forma
+
+![paginalocal](imagenes/paginaslocales.png)
+
+Y el codigo que implementariamos seria el siguiente
+
+![codigopaginalocal](imagenes/codigopaginalocal.png)
+
+- **Enlaces a etiquetas dentro del propio codigo html**
+
+Como algunos documentos htmnl son muy extensos y puede interesarnos navegar por la misma pagina. Para hacer esto debemos poner etiquetas que indiquen a los lugares donde queremos ir y crear enlaces con esos puntos 
+
+Por ejemplo en un indice si queremos ir rapido al apartado que queremos usaremos el siguiente codigo
+
+Al **href** le pondremos una almohadilla para enlazarlo con el **id** del titulo que queremos ir. En el **id** no se pondria la almohadilla
+
+![ejemploenlacemismodoc](imagenes/enlacesmismodocumento.png)
+
+![ejemplomismodoc](imagenes/ejemplomismodoc.png)
+
+## CONTENEDORES DIV
+Un contenedor **&lt;div&gt;** sirve para agrupar diferentes elementos en una pagina web. Es como un bloque donde puedes poner texto, imagenes,formularios, u otro contenido y luego aplicar estilos o realizar acciones con javascript
+
+- **Para que sirve**
+
+Es para organizar contenido, dividir la pagina en secciones osea puedes tener un div para cabezera, otro para el cuerpo y otro para el pie de pagina
+
+Puedes darle un aspecto diferente a cada seccion usando CSS, como cambiar colores, tamaños o alineaciones
+
+Te permite trabajar con partes especificas del contenido de la pagina cuando haces programacion con JavaScript
+
+Y el codigo seria asi 
+
+![div](imagenes/div.png)
+
+## ELEMENTOS SEMANTICOS 
+Es la clave de saber usar HTML correctamente, permite agrupar contenidos en linea y contenido en bloque.
+
+Ejemplos de elementos semanticos son el : &lt;header&gt;, <footer>, <article>, <section>, <nav> y <figure>
+
+![ejemplos](imagenes/ejemplos.png)
+
+Se dividiria asi en un documento html
+
+![elementossemanticos](imagenes/elementosemanticos.png)
+
+## FORMULARIOS
+-  **&lt;form&gt;**
+
+Se utiliza para crear formularios, que permiten al usuario enviar datos.
+
+Atributos comunes son:
+
+&lt;action&gt;: Define la url donde se enviaran los datos del formulario <br>
+&lt;method&gt;: Especifica el metodo de envios de datos <br>
+&lt;enctype&gt;: Define como se codifican los datos antes de ser enviados al servidor <br>
+&lt;target&gt;: indica donde se deben mostrar la respuesta al enviar el formulario. El **_self** la respuesta se carga en la misma ventana y co **_blank** se abre en una pestaña nueva <br>
+**&lt;input&gt;**: Se utiliza para crear diversos tipos de campos interactivos en un formulario <br>
 
 
