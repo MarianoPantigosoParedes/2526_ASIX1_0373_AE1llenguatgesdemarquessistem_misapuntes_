@@ -529,3 +529,55 @@ El codigo implementado sera el siguiente
 
 ## IMAGENES 
 Son un recurso importante para las paginas webs ya que las hacen mas llamativas y nos permite proporcionar informacion de manera visual. La etiqueta que usaremos sera **< img >**, usaremos el atributo **< src >** para poner la ubicacion de la imagen. Tambien usaremos **alt** que es el texto que saldria si en caso no carga la imagen, tambien podemos ajustar las medidas de las imagenes con **width** y **height**
+
+## ENLACES
+Es el sistema que nos permite esta navegacion se llama hipertexto. La etiqueta de html para crear estos enlaces es **< a >**, es una etiqueta de linea ya que podemos colocar enlaces rodeados de texto, para indicar cual es nuestro destino utilizamos el atributo **href**
+
+- **Enlaces a paginas externas**
+
+Si queremos hacer un enlace a una pagina externa, como por ejemplo al sitio web https://www.youtube.com, y el texto que queramos que aparezca en el navegador es "youtube". El codigo que implementaremos sera el siguiente:
+
+<a href="https://www.youtube.com" tittle="Pagina_youtube">Youtube</a>
+
+![paginasexternas](imagenes/paginasexternas.png)
+
+- **Enlaces a paginas locales**
+
+Si el enlace que queremos hacer esta en dirigido a documento local nuestro, podemos usar la ruta relativa al archivo al cual queremos enlazar el atributo **href** 
+
+Por ejemplo en este caso queremos ir desde discografia hasta index, nuestro documento esta organizado de esta forma
+
+![paginalocal](imagenes/paginaslocales.png)
+
+Y el codigo que implementariamos seria el siguiente
+
+![codigopaginalocal](imagenes/codigopaginalocal.png)
+
+- **Enlaces a etiquetas dentro del propio codigo html**
+
+Como algunos documentos htmnl son muy extensos y puede interesarnos navegar por la misma pagina. Para hacer esto debemos poner etiquetas que indiquen a los lugares donde queremos ir y crear enlaces con esos puntos 
+
+Por ejemplo en un indice si queremos ir rapido al apartado que queremos usaremos el siguiente codigo
+
+Al **href** le pondremos una almohadilla para enlazarlo con el **id** del titulo que queremos ir. En el **id** no se pondria la almohadilla
+
+![ejemploenlacemismodoc](imagenes/enlacesmismodocumento.png)
+
+![ejemplomismodoc](imagenes/ejemplomismodoc.png)
+
+## CONTENEDORES DIV
+Un contenedor **< div >** sirve para agrupar diferentes elementos en una pagina web. Es como un bloque donde puedes poner texto, imagenes,formularios, u otro contenido y luego aplicar estilos o realizar acciones con javascript
+
+- **Para que sirve**
+
+Es para organizar contenido, dividir la pagina en secciones osea puedes tener un div para cabezera, otro para el cuerpo y otro para el pie de pagina
+
+Puedes darle un aspecto diferente a cada seccion usando CSS, como cambiar colores, tamaños o alineaciones
+
+Te permite trabajar con partes especificas del contenido de la pagina cuando haces programacion con JavaScript
+
+Y el codigo seria asi 
+
+![div](imagenes/div.png)
+
+## ELEMENTOS SEMANTICOS 
