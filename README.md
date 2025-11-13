@@ -601,7 +601,111 @@ Atributos comunes son:
 &lt;action&gt;: Define la url donde se enviaran los datos del formulario <br>
 &lt;method&gt;: Especifica el metodo de envios de datos <br>
 &lt;enctype&gt;: Define como se codifican los datos antes de ser enviados al servidor <br>
-&lt;target&gt;: indica donde se deben mostrar la respuesta al enviar el formulario. El **_self** la respuesta se carga en la misma ventana y co **_blank** se abre en una pestaña nueva <br>
-**&lt;input&gt;**: Se utiliza para crear diversos tipos de campos interactivos en un formulario <br>
+&lt;target&gt;: indica donde se deben mostrar la respuesta al enviar el formulario. El **_self** la respuesta se carga en la misma ventana y con **_blank** se abre en una pestaña nueva <br>
+
+- **&lt;input&gt;** 
+
+Se utiliza para crear diversos tipos de campos interactivos en un formulario
+
+Atributos comunes son: 
+
+&lt;type&gt;: Define el tipo de entrada que se debe mostrar <br>
+&lt;id&gt;: Identificador unico para el campo, que se puede usar para asociar el &lt;label&gt; con el campo de entrada <br> 
+&lt;name&gt;: Nombre del campo de entrada que se utiliza al enviar el formulario para identificar el dato <br>
+&lt;value&gt;: Valor predeterminado del campo de entrada o el valor enviado al servidor si el campo no es interactivo <br>
+&lt;placeholder&gt;: Texto que aparece en el campo cuando esta vacio, ofreciendo una pista sobre que tipo de datos se debee ingresar <br>
+&lt;required&gt;: Indica que el campo debe completarse antes de enviar el formulario <br>
+&lt;disabled&gt;: Desactiva el campo, evitando que el usuario interactue con el <br>
+&lt;redonly&gt;: Hace que el campo sea solo de lectura, evitando que el usuario modifique su contenido <br>
+
+## ETIQUETAS DE FORMULARIO 
+
+- **&lt;input type="radio"&gt;**: Boton de opcion, se agrupa con otros del mismo nombre
+
+- **&lt;input type="checkbox"&gt;**: Casilla de verificacion, permite selecciones multiples
+
+- **&lt;select&gt;**: Se utiliza para crear menus desplegables en los formularios
+
+- **&lt;option&gt;**: Permite al usuario seleccionar una opcion de una lista de opciones predefinidas
+
+Los atributos comunes para **select** y **option** son: 
+
+**name**: Especifica el nombre del control que se usara al enviar el formulario
+**id**: Identificador unico del elemento, que puede usarse para asociar una etiqueta **&lt;label&gt;**
+**&lt;size&gt;**: Define el numero de opciones visibles en la lista desplegable sin necesidad de desplazar  
+**&lt;multiple&gt;**: Permite seleccionar varias opciones a la vez
+**&lt;value&gt;**: Indica el valor de opcion
+
+- **&lt;textarea&gt;**: Se usa para crear un area de texto en la que los usuarios pueden ingresar multiples lineas de texto. Es util para mensajes largos o descripciones detalladas.
+
+Los atributos comunes son:
+
+**name**: Especifica el nombre del control que se usara al enviar el formulario
+**id**: Identificador unico del elemento, que puede usarse para asociar una etiqueta **&lt;label&gt;**
+**rows**: Define el numero de lineas visibles en el area de texto y especifica la altura de la caja
+**cols**: Define el numero de caracteres visibles en linea. Especifica el ancho de la caja de texto
+**placeholder**: Texto que aparece en el area del texto cuando esta vacio 
+**required**: Indica que el campo debe completarse antes de enviar el formulario
+**readonly**: Hace que el campo sea solo de lectura, evitando que el usuario modifique su edicion
+**disabled**: Desactiva el campo, evitando que el usuario interactue con el
+
+- **&lt;button&gt;**: Se utiliza para crear varios tipos de botones interactivos en el formulario o en una pagina web
+
+Los atributos comunes son:
+
+**type**: Define el tipo de boton. 
+
+Los valores mas comunes son:
+
+**submit**: Envia el formulario cuando se hace click en el boton
+**reset**: Restablece los campos del formulario a sus valores iniciales 
+**name**: Define el nombre del boton que sera enviado con los datos del formulario si el boton tiene el atributo type="submit"
+**value**: Especifica el valor que se envia al servidor si el boton es de tipo submit
+**disabled**: Desactiva el boton, impidiendo que se haga cli en el o que se envie el formulario si es un boton de envio
+
+## TABLAS
+Son un recurso que nos permite mostrar informacion tabulada en filas y columnas. El mejor uso que le podemos dar a las tablas es el de mostrar informacion tabular 
+
+- **&lt;table&gt;**: Define el inicio de una tabla en HTML <br>
+Atributos comunes:
+
+**border**: Define el grosor del borde de la tabla
+
+**width**: Especifica el ancho de la tabla
+
+- **&lt;thead&gt;**: Agrupa el encabezado de la tabla, normalmente contiene las etiquetas **&lt;th&gt;** <br>
+- **&lt;tbody&gt;**: Agrupa el cuerpo de la tabla. Util para separar el contenido del encabezado y pie <br>
+- **&lt;tfood&gt;**: Agrupa el pie de tabla generalmente utilizado para resumen o informacion final <br>
+- **&lt;tr&gt;**: Define una fila en tabla <br>
+Atributos comunes:
+
+**align**: Alinea el contenido en la fila (left,right, center)
+
+**bgcolor**: Define el color de fondo de la fila
+
+**align**: Alineacion horizontal
+
+**valign**: Alineacion vertical
+
+- **&lt;th&gt;**: Define una celda de encabezado en una tabla <br>
+Atributos comunes:
+
+**colsplan**: Define cuantas columnas abarca la celda
+
+**rowspan**: Define cuantas filas abarca la celda
+
+- **&lt;td&gt;**: Define una celda de datos dentro de una fila de tabla <br>
+Atributos comunes:
+
+**colsplan**: Abarca varias columnas
+
+**rowspan**: Abarca varias filas
+
+**align**> Alinea el contenido dentro de la celda (left, right, center)
+
+- **&lt;caption&gt;**: Proporciona un titulo o una descripcion para la tabla, normalmente se coloca justo despues de la etiqueta **&lt;table&gt;**<br>
+Atributos comunes:
+
+**align**: alinea el titulo respecto a la tabla (top, bottom, left, right)
 
 
