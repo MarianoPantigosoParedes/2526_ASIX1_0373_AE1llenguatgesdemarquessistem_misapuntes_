@@ -744,3 +744,9 @@ Se añaden las propiedades CSS directamente en el elemento usando el atributo **
 * Esto dentro de la etiqueta p. La limitacion de hacerlo en una linea es q no podemos mezclar codigos de lenguaje, tienen q estar en una seccion especifica esto es la primera forma de hacerlo q no estaria del todo bien, esto seria metodo etiqueta.
 
 ![inline](imagenes/inline.png)
+
+### INTERNO
+En la cabecera del documento HTML. Podemos poner diferentes propiedades CSS dentro del elemento &lt;style&gt; y dentro del elemento &lt;head&gt; del documento
+
+![interno](imagenes/interno.png)
+
