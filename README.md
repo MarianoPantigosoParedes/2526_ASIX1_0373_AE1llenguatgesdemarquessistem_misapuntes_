@@ -761,5 +761,41 @@ En este metodo se coloca las propiedades de estilo en una hoja externa con exten
 
 ![externo](imagenes/externo.png)
 
+## PRIORIDAD
+Pueden darse el caso de que varias declaraciones CSS afectasen de forma diferente a un mismo elemento HTML, a continuacion veremos cuales tienen preferencia
 
+* En primer lugar, se comprueba si existe una hoja de estilos externa asociada al documento HTMl (estilo externo). Si no estilos en otras ubicaciones son las que se ejecutaran
 
+* En segundo lugar, si hay alguna definicion de estilos en el **HEAD** del documento HTML (estilo intenro). En este casi, si alguna definicion contradice a la definida en la hora de estilos externa, tendra prioridad la definicion del estilo interno
+
+* Por ultimo, si hay alguna definicion de estilos **inline**, en la propia etiqueta HTML, en caso de contradiccion, tendra prioridad la definida en la propia etiqueta
+
+## PRIORIDAD POR ESPECIFICIDAD
+La especifidad se calcula en funcion de un sistema de puntuacion basado en las partes del selector
+
+* **Inline styles (atributo style en HTML)**
+Especificidad = 1000
+Ejemplo: &lt;div style="color:red"&gt;
+
+* **Selectores de ID (#id)**
+Especificidad = 100
+Ejemplo: #header 
+
+* **Selectores de clase, atributos y pseudoclases (.class, [attr=value], :hover):**
+Especificidad = 10
+Ejemplo: .main, [type="text"], :focus
+
+* **Selectores de elementos y pseudoelementos (h1, p, ::before):**
+Especificidad = 1
+Ejemplo: h1, p
+
+* **Universal selector (*), combinadores (+,>,~) y pseudo-clases universales (:is, :not) no suman especificidad por si mismos**
+
+## PRIORIDAD DE ORDEN DE APARICION
+Si dos selectores tienen la misma especificidad, gana el ultimo declarado en el archivo CSS o en las hojas vinculadas
+
+## PRIORIDAD DE REGLAS IMPORTANTES (!IMPORTANT)
+Una regla con !important sobrescribe cualquier otra regla independientemente de la especificidad
+
+## PRIORIDAD DE HERENCIA
+Propiedades como color, **font-family, etc** pueden heredarse pero tienen menor prioridad que una regla aplicada directamente
