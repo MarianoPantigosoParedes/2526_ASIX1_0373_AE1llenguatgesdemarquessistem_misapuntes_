@@ -750,3 +750,16 @@ En la cabecera del documento HTML. Podemos poner diferentes propiedades CSS dent
 
 ![interno](imagenes/interno.png)
 
+### EXTERNO
+En este metodo se coloca las propiedades de estilo en una hoja externa con extension **.css** y desde el documento HTML se enlaza con esta hoja de estilo con la etiqueta &lt;link&gt;
+
+* Asi se veria el nombre de la extension de la hoja externa
+
+![externo](imagenes/externo1.png)
+
+* Aqui iria el href de la hoja externa, con la etiqueta link
+
+![externo](imagenes/externo.png)
+
+
+
