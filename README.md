@@ -732,3 +732,15 @@ Las ventajas son:
 
 ## INCONVENIENTES 
 El gran inconveniente es que no todos los navegadores soportan de la misma forma ante una hoja de estilo dado que algunos no cumplen con los estandares establecidos. Asi obligan al programador a crear diferentes hojas de estilo
+
+## UBICACION 
+Se pueden asociar de diferentes formas
+* Estilo "inline": En la propia etiqueta
+* Estilo "interno": En la cabecera del documento HTML
+* Estilo "externo": En un documento externo, la mas utilizada
+
+### INLINE
+Se añaden las propiedades CSS directamente en el elemento usando el atributo **"style"**
+* Esto dentro de la etiqueta p. La limitacion de hacerlo en una linea es q no podemos mezclar codigos de lenguaje, tienen q estar en una seccion especifica esto es la primera forma de hacerlo q no estaria del todo bien, esto seria metodo etiqueta.
+
+![inline](imagenes/inline.png)
