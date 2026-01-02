@@ -713,4 +713,11 @@ Atributos comunes:
 
 **align**: alinea el titulo respecto a la tabla (top, bottom, left, right)
 
+# CSS
+ Es un lenguaje informático especializado en definir y dar estilo a la presentación de un documento escrito en un lenguaje de marcado como HTML o XML.
+ Su principal función es separar el contenido del documento (HTML) de su forma de presentación, lo que permite controlar aspectos visuales como **colores, fuentes, diseño, disposición de elementos y animaciones** sin alterar la estructura del contenido.
 
+## EVOLUCION 
+Lo que conocemos como CSS aparecio cuando el W3C recibio 9 propuestas diferentes para hojas de estilo, de los cualkes selecciono dos: **Cascading HTML Style Sheets (CHSS)**, Propuesta por HAkon Wium Lie en 1994 y **Stream-based Style Sheet Proposal (SSP)**. De ahi nacieron las Cascading Style Sheets (CSS),cuya primera version, denominada CSS level 1, fue propuesta como estandar a finales del año 1996.
+En mayo de 1998 se publico el estandar CSS Level 2. Diez años despues en 2008, se realizo una revision y se publico el CSS Level 2 Revision 1, conocido como CSS2.1.
+Actualmente se esta trabajando con CSS3. En este caso la especifiacion esta dividia en modulos algunos de los cuales ya se han convertido en estandares, mientras que otros aun estan en desarrollo.
