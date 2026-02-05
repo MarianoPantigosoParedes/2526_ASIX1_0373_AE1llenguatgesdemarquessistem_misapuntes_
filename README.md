@@ -770,7 +770,7 @@ Pueden darse el caso de que varias declaraciones CSS afectasen de forma diferent
 
 * Por ultimo, si hay alguna definicion de estilos **inline**, en la propia etiqueta HTML, en caso de contradiccion, tendra prioridad la definida en la propia etiqueta
 
-## PRIORIDAD POR ESPECIFICIDAD
+### PRIORIDAD POR ESPECIFICIDAD
 La especifidad se calcula en funcion de un sistema de puntuacion basado en las partes del selector
 
 * **Inline styles (atributo style en HTML)**
@@ -791,11 +791,21 @@ Ejemplo: h1, p
 
 * **Universal selector (*), combinadores (+,>,~) y pseudo-clases universales (:is, :not) no suman especificidad por si mismos**
 
-## PRIORIDAD DE ORDEN DE APARICION
-Si dos selectores tienen la misma especificidad, gana el ultimo declarado en el archivo CSS o en las hojas vinculadas
+### PRIORIDAD DE ORDEN DE APARICION
+Si dos selectores tienen la misma especificidad, gana el ultimo declarado en el archivo CSS o en las hojas vinculadas. Ejemplo: color:red& !important, **tendra prioridad sobre cualquier otra regla, incluso si tiene menor especificidad**
 
-## PRIORIDAD DE REGLAS IMPORTANTES (!IMPORTANT)
+### PRIORIDAD DE REGLAS IMPORTANTES (!IMPORTANT)
 Una regla con !important sobrescribe cualquier otra regla independientemente de la especificidad
 
-## PRIORIDAD DE HERENCIA
+### PRIORIDAD DE HERENCIA
 Propiedades como color, **font-family, etc** pueden heredarse pero tienen menor prioridad que una regla aplicada directamente
+<br>
+
+##  SINTAXIS BASICA CSS <br>
+
+Un selector nos sirve para definir a que elemento o elementos queremos aplicar las declaraciones de la regla. Las declaraciones son las diversas caracteristicas que han de cumplir los elementos que concuerdan con el selector.<br>
+La estructura que usariamos seria la siguiente 
+![sintaxis1](css/sintaxis1.png)
+
+y en un ejemplo practico seria tal que asi. Aqui p es el selector
+![sintaxis1](css/sintaxis1ejm.png)
