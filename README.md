@@ -986,6 +986,67 @@ La visualizacion de una tipografia depende de que esta este instalada en el orde
 
 ![codigo](css/fuente.png)
 
+5. Por ultimo lo colocaremos en la parte principal del documento 
+
+![posicion](css/googlefonts.png)
 
 
+## MARGENES BORDES Y RELLENO EN CSS
+1. Margen (margin)
 
+Representan el area transparente que rode la caja. Osea el espacio que la separara de los elementos siguientes. Se puede desplegar a su vez en cuatro propiedades ademas del valor "margin" como propiedad global:
+
+- margin-top (margen superior)
+- margin-right (margen derecho)
+- margin-bottom (margen inferior)
+- margin-left (margen izquierdo)
+
+El valor puede ser:
+
+- pixeles: 2px
+- como referencia al valor del font-size del elemento actual: 1em
+- como referencia al valor del font-size del elemento  &lt;html&gt;: 1rem
+- porcentaje: 5%
+- automatico: auto
+
+![margin](css/margin.png)
+
+En los elementos de linea &lt;span&gt; los valores del margen superior e inferior son ignorados 
+
+2. Bordes (border)
+
+Representan el estilo que tendran los bordes del elemento:
+
+**border: [border-with || border-style || border-color | inherit];**
+
+- El valor que indica el grosor del borde no puede ser negativo
+- Los vordes entre dos bloques estaticos no colapsan, se mantienen
+- Los bordes izquierdo y derecho de un elemento en linea aparecen siempre al inicio y al final de este
+- Los bordes superior e inferior de un elemento en linea pueden solaparse dependiendo del valor de la propiedad line-height
+- La propiedad border se puede dividir en cuatro propiedades **(border-top, border-right, border-bottom y border-left)**
+- El estilo "border-style" del borde puede tener los siguientes valores: **none, hidden, dotted(punteado), dashed(discontinuo), solid(solido), double, groove, ridge, inset, outset e inherit**
+
+![border](css/border.png)
+
+3. Relleno (padding)
+
+Espacio entre el borde del elemento y su contenido. De la propiedad "padding" se derivan al igual que las otras propiedades anteriores en cuatro propiedades especificas a los cuatro lados, **padding-top, padding-right, padding-bottom y padding-left**
+
+- El valor del padding nunca puede ser negativo
+- El estilo del padding es transparente 
+
+![padding](css/padding.png)
+
+Tambien hay formas de acortar los valores del padding
+
+- padding: 5% **se aplica en todos los lados el valor que se puso**
+- padding: 10px **en todos los lados 10px de padding**
+- padding: 10px 20px **arriba y abajo 10 de padding, izquierda y derecha 20px de padding**
+- padding: 10px 3% 20px **arriba 10px de padding, izquierda y derecha 3% de padding, bottom 20px de padding**
+- padding: 1px 3px 30px 5px **arriba 1px de padding, derecha 3px de padding, abajo 30px de padding, ixquierda 5px de padding, en direccion de las agujas del reloj**
+
+## REGLAS DE POSICIONAMIENTO
+
+1. Composicion. display:block
+
+En css la propiedad display es una de las mas importantes y determina como un elemento se comporta en la pagina de terminos de modelo de cja y flujo de diseño
