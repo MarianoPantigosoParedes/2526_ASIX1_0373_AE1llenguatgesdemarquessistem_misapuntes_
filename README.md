@@ -1049,4 +1049,61 @@ Tambien hay formas de acortar los valores del padding
 
 1. Composicion. display:block
 
-En css la propiedad display es una de las mas importantes y determina como un elemento se comporta en la pagina de terminos de modelo de cja y flujo de diseño
+En css la propiedad display es una de las mas importantes y determina como un elemento se comporta en la pagina de terminos de modelo de caja y flujo de diseño. **Controla si un elemento se muestra como un bloque, inline, flex, grid, etc o si esta oculto**. Por defecto el ancho y el alto de una caja se calcula sumando el alto y el ancho del padding y el borde porque la propiedad display tiene como valor **block** y la propiedad **box-sizing** tiene el valor **content-box**
+
+Para solucionar este problema usaremos la propiedad **box-sizing** con el valor **border-box**, que hara que se tenga en cuenta el margin y padding
+
+Es comun usar **{box-sizing:border:box}** y **body{margin:0}** para simplificar el maquetado de las pagina y que el contenido se ajuste a todo el viewport
+
+2. Composicion. desbordamiento (overflow)
+
+Es posible que el contenido de una caja de tamaño fijo sobresalga de las dimensiones de la misma (overflow) dado que por defecto, la propiedad **overflow** tiene el valor **visible** que hace que el contenido no se recorte.
+
+Hay otras posibilidades:
+
+- overflow: hidden. El contenido que desborda del contenedor, no es visible en ningún caso.
+- overflow: scroll. Recorta el contenido y el navegador incrusta unas barras de navegación (se puede dar estilo a la barra p.e. en scrollbar.app).
+- overflow: auto. Dependiendo del navegador y/o dispositivo pone o no las barras de navegación. Es decir, si se pone “scroll”, y en un dispositivo (chrome en móvil) no cabe, pondrá las barras, mientras que si en otro (chrome en windows) cabe, las pondrá también pero desactivadas. Con auto, en el dispositivo que no haga falta, no las pondrá.
+
+3. Composicion. desbordamiento (text-overflow)
+
+Podemos tener la propiedad **overflow** con el valor **hidden** que hace que el contenido de una caja se recorte, pero puede ser que no queramos que un texto dentro de la caja se corte bruscamente. Con la propiedad **overflow** podemos variar ese comportamiento:
+
+- text-overflow: clip. VALOR POR DEFECTO. Recorta el texto, no mostrando lo que no cabe en el contenedor.
+- text-overflow: ellipsis. En caso de que no quepa, corta el texto y añade unos puntos suspensivos para indicar que hay más texto a continuación.
+- En un futuro se podrá incluir un string (p.e. **text-overflow:** "leer más…") de forma que en lugar de los “…” que inserta el valor ellipsis, podamos incluir un símbolo o texto (string) a voluntad… pero por ahora, no funciona aún.
+
+4. Composicion. display:flex
+
+En css, inicialmente se utilizaba el posicionamiento **(static, relative, absolute...)**, los elementos en linea o en bloque o la propiedad float para realizar maquetaciones
+
+Flex es un sistema de elementos flexibles en la que los elementos de HTML se adaptan y colocan automaticamente y es mas facil personalizar diseños de una pagina web
+
+Para usar flex primero debemos conocer algunos de los elementos basicos de este nuevo esquema que son los siguientes:
+
+![felx](css/flex.png)
+
+- contenedor: Es el elemento padre que tendra en su interior cada uno de los items flexibles. Observa que al contrario que muchas otras estructuras CSS, por norma general, en flex establecemos las propiedades al elemento padre
+- eje principal: Los contenedores flexibles tendran una orientacion principal especifica. Por defecto, el eje principal del contenedor flex es en horizontal (en fila)
+- eje secundario: igualmente, los contenedores flexibles tendran una orientacion secundaria, perpendicular a la principal. Si la principal es en horizontal, la secundaria sera en vertical (y viceversa)
+- item: Cada uno de los hijos que tendra el contenedor en su interior
+
+5. Composicion. responsive
+
+El diseño responsive es una técnica de diseño web que permite que un sitio web se adapte automáticamente a diferentes tamaños de pantalla y dispositivos (computadoras, tabletas, teléfonos, etc.).
+
+- Flexible y adaptable:
+El diseño y los elementos (como texto, imágenes y menús) se ajustan al tamaño del dispositivo.
+
+- Media queries:
+Se usan para aplicar estilos específicos según el ancho, alto u otras propiedades de la pantalla.
+
+- Rejillas fluidas:
+Los tamaños de los contenedores se basan en porcentajes en lugar de valores fijos.
+
+- Imágenes y fuentes escalables:
+Se ajustan para mantener la proporción y legibilidad en diferentes dispositivos.
+
+6. Composicion. mediaqueries
+
+Sirve para adaptar la pagina web segun que dispositivo estamos usando
