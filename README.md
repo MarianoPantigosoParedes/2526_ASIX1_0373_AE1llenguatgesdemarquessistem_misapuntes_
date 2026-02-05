@@ -830,7 +830,8 @@ Y en un ejemplo practico seria tal que asi. Aqui p es el selector
 
 ![sintaxis1](css/sintaxis1ejm.png)
 
-1. SELECTORES DE ID <br> 
+1. SELECTORES DE ID 
+
 Los selectores de id es mediante un **id** que corresponden a todos los elemtos de HTML que tiene un atributo id con el valor especificado, osea si queremos darle estilo a ese id, a todas las etiquetas que tengan ese id se les aplicaria
 
 Aqui nosotros pusimos el mismo id a la etiqueta p y al h1
@@ -845,7 +846,8 @@ Y en la pagina web se veria asi
 
 ![sintaxis2pg](css/sintaxis2pf.png)
 
-2. SELECTORES DE ELEMENTO <br>
+2. SELECTORES DE ELEMENTO 
+
 Los selectores de elementos consiste en poner el nombre de una etiqueta en el css y esto hara el cambio en todas las etiquetas de esa pagina. Aqui podemos ver que aplicamos un color de letra, tamaño de letra y espacio de lineas 
 
 ![selecelementos](css/selectorelementos.png)
@@ -854,7 +856,8 @@ Y en la pagina se veria asi
 
 ![pagselect](css/pgselect.png)
 
-3. SELECTORES DE CLASE <br>
+3. SELECTORES DE CLASE
+
 Los selectores de clase corresponde con todos los elementos que tenga el atributo **"class"** con el valor especificado
 
 ![class](css/class.png)
@@ -871,11 +874,13 @@ Aqui la propiedades serian **font-family y font-style** y el valor seria **obliq
 ### SELECTORES AVANZADOS
 
 1. SELECTOR UNIVERSAL 
+
 Sirve para seleccionar todos los elementos de la pagina. Aqui lo que estamos haciendo es que a toda la pagina se el margin y padding tengan un valor de 0 y que toda la pagina tenga el mismo tipo de letra
 
 ![universal](css/universal.png)
 
 2. SELECTOR DE ATRIBUTOS
+
 Permite seleccionar elementos en funcion de los atributos que contienen. Por ejemplo aqui yo puse dos imagenes una con alt y otra sin alt
 
 ![alt](css/alt.png)
@@ -897,6 +902,7 @@ Y en la pagina veremos que cambio
 ![srcpg](css/pgsrc.png)
 
 3. SELECTORES DE HIJOS
+
 Sirven para seleccionar elementos concretos que son hijos directos de otros elementos en concreto. Ose que si en un h2 hay un strong y tengo mas strong en otras etiquetas y pongo la siguiente sintaxis:
 
 ![selecthijos](css/selechijos.png)
@@ -911,4 +917,35 @@ Esto solo se aplicara a los strong que tenga h2, si hay mas en otras etiquetas n
 
 ![muestra](css/muestra.png)
 
-##
+4. SELECTORES DE DESCENDIENTES
+
+Es similar al selector de hijos pero a diferencia de ellos, que solo seleccionan elementos descendientes directos. Estos selectores seleccionan elementos indicados en cualquier punto de la jerarquia del elemento y no solo a los descendientes. 
+
+- Aqui podemos ver que dentro del div hay un h2, p, img, strong y em. Y nosotros queremos que el estilo que pongamos solo afecte al em
+
+![em](css/em.png)
+
+- En el css se aplicaria de esta forma para que solo afecte al em. Aqui lo que estamos diciendo es que dentro del div seleccionaremos el descendiente em
+
+![divem](css/divem.png)
+
+- Y en la pagina se veria asi solo se aplica en el pedazo de la etiqueta em
+
+![pgem](css/pgem.png)
+
+5. SELECTORES DE HERMANOS ADYACENTES
+
+Permiten seleccionar un elemento concreto que aparece directamente despues de otro elemento concreto al mismo nivel de jerarquia del elemento. Si esta mas abajo o los separa algo no se podria hacer
+
+- Aqui podemos ver quien es hermano adyacente de h1 y quien no
+
+![adyacente](css/hermanoadyacentes.png)
+
+- El codigo en css seria asi 
+
+![adyacente](css/adyacente.png)
+
+- En la pagina web se veria asi. Aqui podemos notar que solo afecta al h1 y al primer h2
+
+![adyacente](css/pgadyacente.png)
+

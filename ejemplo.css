@@ -24,3 +24,11 @@ p {
     font-size: 16px;
     line-height: 1.6;
 }
+
+div em {
+    font-size: 30px;
+}
+
+h1+h2 {
+    margin-top: 5mm;
+}
