@@ -14,3 +14,13 @@ img[src="imagenes/listadesordenada.png"] {
     width: 200px;
     height: 200px;
 }
+
+h2>strong {
+    color: blueviolet;
+}
+
+p {
+    color: #b90f0f;
+    font-size: 16px;
+    line-height: 1.6;
+}

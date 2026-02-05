@@ -801,11 +801,28 @@ Una regla con !important sobrescribe cualquier otra regla independientemente de 
 Propiedades como color, **font-family, etc** pueden heredarse pero tienen menor prioridad que una regla aplicada directamente
 <br>
 
-##  SINTAXIS BASICA CSS <br>
+## TIPOS DE SELECTORES
+Hay diferentes tipos de selectores, los mas basicos son:
+
+1. Selectores de elementos
+2. Selector de id
+3. Selector de clase
+
+Y los avanzados que son
+
+1. Selector universal
+2. Selector de atributos
+3. Selector de hijos
+4. Selector de descendientes
+5. Selector de hermanos adyacentes
+6. Pseudoclases
+7. Pseudoelementos
+
+###  SELECTORES BASICOS CSS <br>
 
 Un selector nos sirve para definir a que elemento o elementos queremos aplicar las declaraciones de la regla. Las declaraciones son las diversas caracteristicas que han de cumplir los elementos que concuerdan con el selector.
 
-- La estructura que usariamos seria la siguiente 
+La estructura que usariamos seria la siguiente 
 
 ![sintaxis1](css/sintaxis1.png)
 
@@ -813,7 +830,8 @@ Y en un ejemplo practico seria tal que asi. Aqui p es el selector
 
 ![sintaxis1](css/sintaxis1ejm.png)
 
-- La siguiente forma de la sintacis es mediante **selectores id** que corresponden a todos los elemtos de HTML que tiene un atributo id con el valor especificado, osea si queremos darle estilo a ese id, a todas las etiquetas que tengan ese id se les aplicaria
+1. SELECTORES DE ID <br> 
+Los selectores de id es mediante un **id** que corresponden a todos los elemtos de HTML que tiene un atributo id con el valor especificado, osea si queremos darle estilo a ese id, a todas las etiquetas que tengan ese id se les aplicaria
 
 Aqui nosotros pusimos el mismo id a la etiqueta p y al h1
 
@@ -827,6 +845,20 @@ Y en la pagina web se veria asi
 
 ![sintaxis2pg](css/sintaxis2pf.png)
 
+2. SELECTORES DE ELEMENTO <br>
+Los selectores de elementos consiste en poner el nombre de una etiqueta en el css y esto hara el cambio en todas las etiquetas de esa pagina. Aqui podemos ver que aplicamos un color de letra, tamaño de letra y espacio de lineas 
+
+![selecelementos](css/selectorelementos.png)
+
+Y en la pagina se veria asi
+
+![pagselect](css/pgselect.png)
+
+3. SELECTORES DE CLASE <br>
+Los selectores de clase corresponde con todos los elementos que tenga el atributo **"class"** con el valor especificado
+
+![class](css/class.png)
+
 - En la sintaxis hay la propiedad y el valor <br>
 Aqui la propiedades serian **font-family y font-style** y el valor seria **oblique y couriernew,courier,monospace**
 
@@ -836,12 +868,14 @@ Aqui la propiedades serian **font-family y font-style** y el valor seria **obliq
 
 ![comentario](css/comentario.png)
 
-## SELECTOR UNIVERSAL 
+### SELECTORES AVANZADOS
+
+1. SELECTOR UNIVERSAL 
 Sirve para seleccionar todos los elementos de la pagina. Aqui lo que estamos haciendo es que a toda la pagina se el margin y padding tengan un valor de 0 y que toda la pagina tenga el mismo tipo de letra
 
 ![universal](css/universal.png)
 
-## SELECTOR DE ATRIBUTOS
+2. SELECTOR DE ATRIBUTOS
 Permite seleccionar elementos en funcion de los atributos que contienen. Por ejemplo aqui yo puse dos imagenes una con alt y otra sin alt
 
 ![alt](css/alt.png)
@@ -862,3 +896,19 @@ Y en la pagina veremos que cambio
 
 ![srcpg](css/pgsrc.png)
 
+3. SELECTORES DE HIJOS
+Sirven para seleccionar elementos concretos que son hijos directos de otros elementos en concreto. Ose que si en un h2 hay un strong y tengo mas strong en otras etiquetas y pongo la siguiente sintaxis:
+
+![selecthijos](css/selechijos.png)
+
+Esto solo se aplicara a los strong que tenga h2, si hay mas en otras etiquetas no se aplicara 
+
+- Aqui podemos ver que stron esta en h2 y en la etiqueta p
+
+![strongh2p](css/ejempghijos.png)
+
+- Aplicamos el css anterior y en la pagina se veria asi. Solo cambia lo del titulo porque lo otro no esta dentrodel h2
+
+![muestra](css/muestra.png)
+
+##
