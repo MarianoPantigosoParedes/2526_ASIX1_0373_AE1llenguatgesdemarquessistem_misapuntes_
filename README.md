@@ -803,10 +803,62 @@ Propiedades como color, **font-family, etc** pueden heredarse pero tienen menor 
 
 ##  SINTAXIS BASICA CSS <br>
 
-Un selector nos sirve para definir a que elemento o elementos queremos aplicar las declaraciones de la regla. Las declaraciones son las diversas caracteristicas que han de cumplir los elementos que concuerdan con el selector.<br>
-La estructura que usariamos seria la siguiente 
+Un selector nos sirve para definir a que elemento o elementos queremos aplicar las declaraciones de la regla. Las declaraciones son las diversas caracteristicas que han de cumplir los elementos que concuerdan con el selector.
+
+- La estructura que usariamos seria la siguiente 
 
 ![sintaxis1](css/sintaxis1.png)
 
 Y en un ejemplo practico seria tal que asi. Aqui p es el selector
+
 ![sintaxis1](css/sintaxis1ejm.png)
+
+- La siguiente forma de la sintacis es mediante **selectores id** que corresponden a todos los elemtos de HTML que tiene un atributo id con el valor especificado, osea si queremos darle estilo a ese id, a todas las etiquetas que tengan ese id se les aplicaria
+
+Aqui nosotros pusimos el mismo id a la etiqueta p y al h1
+
+![sintaxis2](css/sintaxis2.png)
+
+En el css aplicamos este estilo, **cuando usemos id y le queremos dar estilo siempre colocaremos la # porque sino no lo reconoce**
+
+![sintaxis2ejem](css/sintaxisejm.png)
+
+Y en la pagina web se veria asi 
+
+![sintaxis2pg](css/sintaxis2pf.png)
+
+- En la sintaxis hay la propiedad y el valor <br>
+Aqui la propiedades serian **font-family y font-style** y el valor seria **oblique y couriernew,courier,monospace**
+
+![propiedadvalor](css/propiedadvalor.png)
+
+- Los comentarios en css son muy utiles ya que nos serviria mas facil para identificar donde se aplican los estilos. Para ponerlos se usa /**/
+
+![comentario](css/comentario.png)
+
+## SELECTOR UNIVERSAL 
+Sirve para seleccionar todos los elementos de la pagina. Aqui lo que estamos haciendo es que a toda la pagina se el margin y padding tengan un valor de 0 y que toda la pagina tenga el mismo tipo de letra
+
+![universal](css/universal.png)
+
+## SELECTOR DE ATRIBUTOS
+Permite seleccionar elementos en funcion de los atributos que contienen. Por ejemplo aqui yo puse dos imagenes una con alt y otra sin alt
+
+![alt](css/alt.png)
+
+Puse el siguiente codigo en css para que solo se aplique a la etiqueta img que contenga alt
+
+![selectatrib](css/selectoratrib.png)
+
+Y  en la pagina se veria tal que asi. Como podremos observar solo cambio la imagen donde hay algo dentro del alt la otra no porque esta vacia o no existe dentro de la equiqueta img 
+
+![selectatribpg](css/selecatribpg.png)
+
+La otra forma que podemos hacerlo es atraves del src **en este caso porque usamos la etiqueta de imagen**, si usamos otra etique tambien podriamos usar uno de sus atributos para hacerlo
+
+![srcimg](css/srcimg.png)
+
+Y en la pagina veremos que cambio
+
+![srcpg](css/pgsrc.png)
+
