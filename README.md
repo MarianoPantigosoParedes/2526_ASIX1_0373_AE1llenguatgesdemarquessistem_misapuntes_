@@ -949,3 +949,43 @@ Permiten seleccionar un elemento concreto que aparece directamente despues de ot
 
 ![adyacente](css/pgadyacente.png)
 
+6. SELECTORES PSEUDOCLASES
+
+Se utilizan para definir estilos, no para elementos sino para sus estados. Uno de los mas habituales es aplicar estilos a los estados de enlaces
+
+- :link: El estado normal por defecto de los enlaces. Tal y como se ven por primera vez
+- :visitedd: Enlaces que ya se han visitado con el navegador que se esta utilizando
+- :focus: Enlaces(campos de formularios, o cualquier otra cosa) que tienen en ese momento el cursor en su inferior
+- :hover: Enlaces que tienen en este momento el puntero del raton sobre ellos
+
+7. SELECTORES PSEUDOELEMENTOS
+
+Al igual que los pseudoclases, no afectan a todo el elemento sino que permiten añadir estilos a **una parte concreta**. Por ejemplo el pseudoelemento **:first-line** selecciona solo la primera linea del elemento especificado por el selector
+
+![pseudoelementos](css/pseudoelementos.png)
+
+- Y en la pagina web se veria asi
+
+![pseudoelementos](css/pgpseudoelementos.png)
+
+## GOOGLE FONTS
+
+La visualizacion de una tipografia depende de que esta este instalada en el ordenador donde se va a visualizar la web, tambien podemos añadir mas tipografias a nuestros diseños mediante el uso de tipografias online como por ejemplo las que ofrece google en su web.
+
+1. Para usarlas tenemos que ir primero a su pagina web 
+
+2. Buscamos el tipo de letra y entramos en ella 
+
+![buscar](css/search.png)
+
+3. Le damos a get font 
+
+![getfont](css/getfont.png)
+
+4. Cuando le demos click ahi nos saldra las opciones para conseguir el codigo de la fuente o descargar todo
+
+![codigo](css/fuente.png)
+
+
+
+
