@@ -805,7 +805,8 @@ Propiedades como color, **font-family, etc** pueden heredarse pero tienen menor 
 
 Un selector nos sirve para definir a que elemento o elementos queremos aplicar las declaraciones de la regla. Las declaraciones son las diversas caracteristicas que han de cumplir los elementos que concuerdan con el selector.<br>
 La estructura que usariamos seria la siguiente 
+
 ![sintaxis1](css/sintaxis1.png)
 
-y en un ejemplo practico seria tal que asi. Aqui p es el selector
+Y en un ejemplo practico seria tal que asi. Aqui p es el selector
 ![sintaxis1](css/sintaxis1ejm.png)
